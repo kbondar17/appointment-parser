@@ -1,0 +1,7 @@
+beautifulsoup4==4.11.1
+tqdm==4.64.0
+structlog==22.1.0
+pymorphy2==0.9.1
+pydantic==1.9.1
+natasha==1.4.0
+typer==0.6.1
