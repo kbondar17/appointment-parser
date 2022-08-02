@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Об изменении и признании утратившими силу некоторых актов Президента Российской Федерации</title>
+<meta content="text/html; charset=utf-8; charset=utf-8" http-equiv="Content-Type"><my_meta author="Медведев Д." date="24.01.2012" doc_id="102153608" tags="группа изменение комиссия комитет назначение председатель сила состав утративший" url="http://pravo.gov.ru/proxy/ips/?doc_itself=&amp;nd=102153608&amp;page=1&amp;rdk=0&amp;link_id=0#I0"></my_meta></meta>
+<link href="?doc_itself.css" rel="stylesheet" type="text/css"/>
+<script charset="windows-1251" src="?script.js" type="text/javascript"></script>
+<script charset="windows-1251" src="?json.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+        var bookMarkNumber = parseInt('', 10);
+        var textCompleted = 'True'.toLowerCase() == 'true';
+        var scrollTop = parseInt('', 10);
+
+        function goToMark() {
+            window.location.hash = "I0";
+        }
+
+        function changeFontOnLoad() {
+            if(window.parent.changeDocFont != null) {
+                window.parent.changeDocFont('t_normal');
+            }
+        }
+
+        function printOnLoad() {
+            
+        }
+
+        function loadFullText() {
+            if (textCompleted)
+                return;
+            var supportPageOffset = window.pageXOffset !== undefined;
+			var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
+			var scrollTop = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+            var textContent = document.getElementById("text_content");
+            textContent.innerHTML = '';
+            textContent.appendChild(createSpinner('?'));
+            var newUrl = document.location.href.split('#')[0];
+            newUrl += '&fulltext=1&scrolltop=' + scrollTop;
+            window.location.href = newUrl;
+            FixImagesIE();
+        }
+		function LinkParseHash(){
+					var cells = document.getElementsByTagName("a"); 
+					for (var i = 0; i < cells.length; i++) { 
+						var status = cells[i].setAttribute("target","_parent"); 
+						cells[i].setAttribute("href",cells[i].getAttribute("href")+"&forhash=1")
+					}
+		}
+
+        function loadFinished() {
+            document.doctitle = 'Об изменении и признании утратившими силу некоторых актов Президента Российской Федерации';
+            window.docNum = parseInt('102153608', 10);
+            if (scrollTop > 0) {
+                window.scrollTo(0, scrollTop);
+            }
+            goToMark();
+            goToSelection();
+            setselchange();
+            IERecordSel();
+            changeFontOnLoad();
+            printOnLoad();
+            setLandscape();
+            if (textCompleted) {
+                hideSpinner();
+            }
+            FixImagesIE();
+        }
+
+        /*
+         Если проскролили больше половины текста, проверяем нужно ли загружать весь текст целиком
+         */
+        var didScroll = false;
+        window.onscroll = doThisStuffOnScroll;
+        function doThisStuffOnScroll() {
+            didScroll = true;
+        }
+        var refreshScrollId = setInterval(function() {
+            if(!textCompleted && didScroll) {
+                didScroll = false;
+                var scroll, height;
+                if (document.documentElement.scrollTop) {
+                    scroll = document.documentElement.scrollTop;
+                    height = document.documentElement.scrollHeight;
+                } else {
+                    scroll = document.body.scrollTop;
+                    height = document.body.scrollHeight;
+                }
+                if (scroll > height*0.7) {
+                    clearInterval(refreshScrollId);
+                    loadFullText();
+                }
+            }
+        }, 1000);
+// в IE 11 встроенный механизм ресайза работает нехорошо.
+        function FixImagesIE() {
+            if (!document.documentMode) return; // IE < 8 or not IE
+            if (navigator.userAgent.indexOf('MSIE') >= 0) return; // IE < 11
+            var images = document.querySelectorAll('img');
+            var tmpImages = [];
+            for (var i = 0; i < images.length; i++) {
+                var image = images[i];
+                var iW = images[i].naturalWidth;
+                var iH = images[i].naturalHeight;
+                var targetW = image.width;
+                var targetH = image.height;
+                if ((targetH * 2) > iH) continue; // до двухкратного уменьшения обойдемся встроенным ресайзом.
+                tmpImages[i] = new Image();
+                tmpImages[i].src = image.src;
+                tmpImages[i].setAttribute('iW', iW);
+                tmpImages[i].setAttribute('iH', iH);
+                tmpImages[i].setAttribute('targetW', targetW);
+                tmpImages[i].setAttribute('targetH', targetH);
+                tmpImages[i].setAttribute('num', i);
+                tmpImages[i].onload = function() {
+                    var iW = parseInt(this.getAttribute('iW')) / 2;
+                    var iH = parseInt(this.getAttribute('iH')) / 2;
+                    var targetW = parseInt(this.getAttribute('targetW'));
+                    var targetW = parseInt(this.getAttribute('targetH'));
+                    var num = parseInt(this.getAttribute('num'));
+                    iW = iW < targetW ? targetW : iW;
+                    iH = iH < targetH ? targetH : iH;
+                    this.setAttribute('iW', iW);
+                    this.setAttribute('iH', iH);
+                    var cnv = document.createElement('canvas');
+                    cnv.height = iH;
+                    cnv.width = iW;
+                    var ctx = cnv.getContext('2d');
+                    ctx.drawImage(this, 0, 0, iW, iH);
+                    var dataUrl = cnv.toDataURL();
+                    images[num].src = dataUrl;
+                    if (iW <= targetW || iH <= targetH) 
+                        return;
+                    this.src = dataUrl; // неявная рекурсия
+                }
+            }
+        }
+
+
+    </script>
+</head>
+<body class="doc_content_bg_default" onload="loadFinished();" style="height:100%;">
+<div class="doc_content" id="doc_content" style="width: 750px;min-width: 710px;">
+<div id="text_content">
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:st1="urn:schemas-microsoft-com:office:smarttags" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word">
+<head>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Complex</title>
+<!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View><w:ValidateAgainstSchemas/><w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid><w:IgnoreMixedContent>false</w:IgnoreMixedContent><w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText><w:Compatibility><w:SelectEntireFieldWithStartOrEnd/><w:UseWord2002TableStyleRules/></w:Compatibility><w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel></w:WordDocument></xml><![endif]-->
+<style><!--
+@page vert{size:595.3pt 841.9pt; mso-page-orientation:portrait; margin:15mm 10mm 15mm 12mm; mso-header-margin:10mm; mso-footer-margin:10mm; mso-paper-source:0;}
+@page hori{size:841.9pt 595.3pt; mso-page-orientation:landscape;margin:15mm 10mm 15mm 12mm; mso-header-margin:10mm; mso-footer-margin:10mm; mso-paper-source:0;}
+@page any{margin:15mm 10mm 15mm 12mm;}
+@page{margin:15mm 7mm 15mm 15mm;}
+body{margin:0px 0px 0px 12px; border:0; padding:0; color:#333333; background:#fffefb; font-size:18px; font-family:"times new roman", times, serif; line-height:125%; word-wrap:break-word;}
+div{margin:0; border:0; padding:0;}
+div.comment{display:block; width:670px; margin-bottom:5px; padding:5px 5px 7px 5px; border-radius:5px; background-color:#d5d5d5; font-size:16px; font-family:tahoma, arial, sans-serif; line-height:125%; text-align:justify;}
+div.fixedcomment{display:block; width:670px; margin-bottom:5px; padding:5px 3325px 7px 17px; background-color:#d5d5d5; font-size:16px; font-family:tahoma, arial, sans-serif; line-height:125%; text-align:justify;}
+div.fixedcomment:before{display:none; content:""; top:0; left:0; position:fixed; z-index:1; width:670px; margin:0; padding:5px 3325px 7px 17px; background-color:#d5d5d5; font-size:16px; font-family:tahoma, arial, sans-serif; line-height:125%; text-align:justify;}
+div.clip{margin-top:4px; width:680px; font-size:16px; font-family:tahoma, arial, sans-serif; line-height:125%;}
+div.time{padding:16px 0px;}
+div.past{background-color:#f0b0c0;}
+div.future{background-color:#b8f0d0;}
+div.present{background-color:#a8e0ff;}
+div.brd{margin:8px 0px; border-bottom:1px solid #a0a0a0; padding:0;}
+div.fragments{min-height:1000px; width:4000px;}
+img, img.mid{margin-bottom:0; vertical-align:middle;}
+img.bot{margin-bottom:-5px; vertical-align:baseline;}
+p, p.P{text-indent:45px; margin:6px 0px; max-width:680px; text-align:justify; border:0; padding:0;}
+p.N{text-indent:45px; margin:6px 0px; max-width:680px; text-align:justify; border:0; padding:0; font-size:16px;}
+p.I{text-indent:0; margin-left:45px; max-width:635px; text-align:left;}
+p.K{text-indent:0; margin-left:45px; max-width:635px; text-align:justify;}
+p.H{text-indent:-81px; margin-left:126px; max-width:509px; text-align:left; font-weight:bold;}
+p.S{text-indent:0; margin-left:340px; max-width:340px; text-align:center;}
+p.C{text-indent:0; margin-left:45px; margin-right:45px; max-width:590px; text-align:center}
+p.T{text-indent:0; margin-left:45px; margin-right:45px; max-width:590px; text-align:center; font-weight:bold;}
+p.Z{text-indent:0; margin-left:45px; margin-right:45px; max-width:590px; text-align:center; font-weight:bold;}
+p.Y{text-indent:0; margin-left:45px; max-width:635px; text-align:left;}
+p.M{white-space:pre; overflow-wrap:normal; text-indent:0; max-width:4000px; text-align:left; font-size:17px; font-family:"courier new", courier, monospace;}
+p.L{text-indent:0; text-align:left;}
+p.R{text-indent:0; text-align:right;}
+p.J{text-indent:0; text-align:justify;}
+p.F{text-indent:0; margin-left:45px; max-width:625px; text-align:left; background-color:#dcfeed; border-left:5px solid #94DD96; padding-left:5px;}
+p.A{text-indent:0; margin-left:45px; max-width:625px; text-align:left; background-color:#f0f0f0; border-left:5px solid #c0c0c0; padding-left:5px;}
+.HD{display:none;}
+.W0{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:normal; text-decoration:none;}
+.W1{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:normal; text-decoration:underline;}
+.W2{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:italic; text-decoration:none;}
+.W3{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:italic; text-decoration:underline;}
+.W4{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:normal; text-decoration:none;}
+.W5{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:normal; text-decoration:underline;}
+.W6{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:italic; text-decoration:none;}
+.W7{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:italic; text-decoration:underline;}
+.W8{vertical-align:sub; line-height:100%; font-size:100%; font-weight:normal; font-style:normal; text-decoration:none;}
+.W9{vertical-align:super; line-height:100%; font-size:100%; font-weight:normal; font-style:normal; text-decoration:none;}
+.WA{vertical-align:sub; line-height:100%; font-size:100%; font-weight:bold; font-style:normal; text-decoration:none;}
+.WB{vertical-align:super; line-height:100%; font-size:100%; font-weight:bold; font-style:normal; text-decoration:none;}
+.WC{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:normal; text-decoration:line-through;}
+.WD{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:italic; text-decoration:line-through;}
+.WE{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:normal; text-decoration:line-through;}
+.WF{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:italic; text-decoration:line-through;}
+table{table-layout:fixed;
+margin:0px 0px 4px 0px; padding:0;
+text-indent:0; text-align:left;
+box-sizing:border-box;
+border-collapse:collapse;
+border-spacing:0;
+border-width:1px;
+border-color:#a0a0a0;
+border-style:none;
+}
+td{
+empty-cells:show;
+vertical-align:top;
+margin:0; padding:6px 4px 6px 4px;
+text-indent:0; text-align:left;
+border-spacing:0;
+border-width:1px;
+border-color:#a0a0a0;
+border-style:none;
+}
+td div{margin:0; border:0; padding:0; display:inline-block; -ms-writing-mode:tb-rl; -ms-transform:rotate(180deg);}
+.TB0 td, .G02L td, .G02R td, .G02C td, .G02J td, .G04L td, .G04R td, .G04C td, .G04J td{border-style:none;}
+.TB1 td, .G12L td, .G12R td, .G12C td, .G12J td, .G14L td, .G14R td, .G14C td, .G14J td{border-style:solid;}
+table.G22L tr td, table.G22R tr td, table.G22C tr td, table.G22J tr td, table.G24L tr td, table.G24R tr td, table.G24C tr td, table.G24J tr td{border-style:solid;}
+table.G32L tr td, table.G32R tr td, table.G32C tr td, table.G32J tr td, table.G34L tr td, table.G34R tr td, table.G34C tr td, table.G34J tr td{border-style:none;}
+table td.X0{border-style:none;}
+table td.X1{border-style:solid none none none;}
+table td.X2{border-style:none solid none none;}
+table td.X3{border-style:solid solid none none;}
+table td.X4{border-style:none none solid none;}
+table td.X5{border-style:solid none solid none;}
+table td.X6{border-style:none solid solid none;}
+table td.X7{border-style:solid solid solid none;}
+table td.X8{border-style:none none none solid;}
+table td.X9{border-style:solid none none solid;}
+table td.XA{border-style:none solid none solid;}
+table td.XB{border-style:solid solid none solid;}
+table td.XC{border-style:none none solid solid;}
+table td.XD{border-style:solid none solid solid;}
+table td.XE{border-style:none solid solid solid;}
+table td.XF{border-style:solid;}
+td, td p, .TAL td, .TAL td p, tr td p.L, .G02L td, .G02L td p, .G04L td, .G04L td p, .G12L td, .G12L td p, .G14L td, .G14L td p, .G22L td, .G22L td p, .G24L td, .G24L td p, .G32L td, .G32L td p, .G34L td, .G34L td p{text-indent:0; margin:0; max-width:100%; text-align:left;}
+.TAC td, .TAC td p, tr td p.C, .G02C td, .G02C td p, .G04C td, .G04C td p, .G12C td, .G12C td p, .G14C td, .G14C td p, .G22C td, .G22C td p, .G24C td, .G24C td p, .G32C td, .G32C td p, .G34C td, .G34C td p{text-indent:0; margin:0; max-width:100%; text-align:center}
+.TAR td, .TAR td p, tr td p.R, .G02R td, .G02R td p, .G04R td, .G04R td p, .G12R td, .G12R td p, .G14R td, .G14R td p, .G22R td, .G22R td p, .G24R td, .G24R td p, .G32R td, .G32R td p, .G34R td, .G34R td p{text-indent:0; margin:0; max-width:100%; text-align:right;}
+.TAJ td, .TAJ td p, tr td p.J, .G02J td, .G02J td p, .G04J td, .G04J td p, .G12J td, .G12J td p, .G14J td, .G14J td p, .G22J td, .G22J td p, .G24J td, .G24J td p, .G32J td, .G32J td p, .G34J td, .G34J td p{text-indent:0; margin:0; max-width:100%; text-align:justify;}
+tr td p.P{text-indent:38px; margin:0; max-width:100%; text-align:justify;}
+tr td p.N{text-indent:38px; margin:0; max-width:100%; text-align:justify; font-size:16px;}
+tr td p.I{text-indent:0; margin:0px 0px 0px 38px; max-width:100%; text-align:left;}
+tr td p.K{text-indent:0; margin:0px 0px 0px 38px; max-width:100%; text-align:justify;}
+tr td p.H{text-indent:-81px; margin:0px 38px 0px 119px; max-width:100%; text-align:left; font-weight:bold;}
+tr td p.T{text-indent:0; margin:0px 38px 0px 38px; max-width:100%; text-align:center; font-weight:bold;}
+tr.holder td{visibility:hidden; height:0; border-style:none; padding:0; font-size:4px; line-height:0.125em;}
+.G02L, .G02C, .G02R, .G02J, .G12L, .G12C, .G12R, .G12J, .G22L, .G22C, .G22R, .G22J, .G32L, .G32C, .G32R, .G32J{font-size:16px;}
+tr td p.M{max-width:100%; text-align:left; font-size:14px; font-family:"courier new", courier, monospace;}
+div.clip{page:any;}
+div.fragments{page:any;}
+input.cap{position:absolute; opacity:0; height:0; width:0;}
+input.cap + label{display:block; cursor:pointer; text-indent:0; margin-left:45px; margin-right:45px; max-width:590px; text-align:center; text-decoration:underline; color:#1111ee;}
+input.cap + label:before{content:""; display:inline-block; padding:0; margin-right:6px; border-radius:3px; min-height:15px; min-width:15px; font-size:12px; line-height:15px; vertical-align:middle; background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABBSURBVDhPY3zw4P9/BjIBE5QmCwxSzYaG76Es7GDgnI0RVficev68IJQFAXjjGWQQugZkMIj8TAoYOGdToJmBAQCgSRZk7J2AQAAAAABJRU5ErkJggg==");}
+input.cap:checked + label:before{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAxSURBVDhPY3zw4P9/BjIBE5QmC4xqJhFgRJWh4XsoCxOcPy8IZUHAaDyTCAZKMwMDAC3CDlahtN6NAAAAAElFTkSuQmCC");}
+input.cap:not(:checked) + label + .C{display:none;}
+input.cap:not(:checked) + label + .C + .C{display:none;}
+@media screen{
+div.fixedcomment{margin-left:-12px;}
+span.ed,span.edx{color:#1111ee;}
+span.mark,span.markx{color:#1111ee; font-weight:normal; font-style:italic; text-decoration:none;}
+span.edx{background-color:#f0f0f0;}
+span.markx{background-color:#f0f0f0;}
+.F span.mark, .F span.markx, .A span.mark, .A span.markx{background-color:transparent; color:inherit;}
+.cmd, a{cursor:pointer; color:#1111ee; font-weight:normal; font-style:normal; text-decoration:underline;}
+.cmdx{background-color:#ead099;}
+.W8 .cmd, .W8 a{cursor:pointer; color:#1111ee; font-weight:normal; font-style:normal; text-decoration:underline;
+vertical-align:bottom; line-height:100%; font-size:11px; font-weight:normal; font-style:normal;}
+.W9 .cmd, .W9 a{cursor:pointer; color:#1111ee; font-weight:normal; font-style:normal; text-decoration:underline;
+vertical-align:top; line-height:100%; font-size:11px; font-weight:normal; font-style:normal;}
+.W8{vertical-align:bottom; line-height:100%; font-size:11px; font-weight:normal; font-style:normal; text-decoration:none;}
+.W9{vertical-align:top; line-height:100%; font-size:11px; font-weight:normal; font-style:normal; text-decoration:none;}
+.WA{vertical-align:bottom; line-height:100%; font-size:11px; font-weight:bold; font-style:normal; text-decoration:none;}
+.WB{vertical-align:top; line-height:100%; font-size:11px; font-weight:bold; font-style:normal; text-decoration:none;}
+}
+@media print{
+body{margin:0; border:0; padding:0; color:#333333; background:white; widows:1; orphans:1; font-size:13.5pt; font-family:"times new roman", times, serif; line-height:125%; word-wrap:break-word;}
+div.comment{display:block; width:100%; font-size:11pt; margin:10pt 0pt; padding:0;}
+div.fixedcomment{display:block; width:100%; font-size:11pt; margin:10pt 0pt; padding:0;}
+div.fixedcomment:before{display:none; position:static; width:100%; font-size:11pt; margin:10pt 0pt; padding:0;}
+div.clip{width:100%; font-size:11pt; font-family:tahoma, arial, sans-serif;}
+div.time{padding:0ex 0ex 1ex 0ex;}
+div.fragments{min-height:5%; width:100%;}
+p, p.P{text-indent:7ex; max-width:100%; text-align:justify; margin:5pt 0pt; border:0; padding:0;}
+p.N{text-indent:8ex; max-width:100%; text-align:justify; margin:5pt 0pt; border:0; padding:0;}
+p.I{text-indent:0; margin-left:7ex; max-width:100%; text-align:left;}
+p.K{text-indent:0; margin-left:7ex; max-width:100%; text-align:justify;}
+p.H{text-indent:-10ex; margin-left:17ex; margin-right:7ex; max-width:100%; text-align:left; font-weight:bold;}
+p.S{text-indent:0; margin-left:auto; margin-right:0; max-width:40ex; text-align:center;}
+p.C{text-indent:0; margin-left:5ex; margin-right:5ex; max-width:100%; text-align:center;}
+p.T{text-indent:0; margin-left:5ex; margin-right:5ex; max-width:100%; text-align:center; font-weight:bold;}
+p.M{white-space:pre; overflow-wrap:normal; text-indent:0; max-width:100%; text-align:left; font-size:12.5pt; font-family:"courier new", courier, monospace;}
+p.F{text-indent:0; margin-left:7ex; max-width:100%; text-align:left; border-left:5pt solid #949494; padding-left:5pt;}
+.mark,.markx{font-weight:normal; font-style:italic; text-decoration:none;}
+.cmd, a{font-weight:normal; font-style:normal; text-decoration:none;}
+.W8 .cmd, .W8 a{font-weight:normal; font-style:normal; text-decoration:none;
+vertical-align:bottom; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal;}
+.W9 .cmd, .W9 a{font-weight:normal; font-style:normal; text-decoration:none;
+vertical-align:top; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal;}
+.W8{vertical-align:bottom; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal; text-decoration:none;}
+.W9{vertical-align:top; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal; text-decoration:none;}
+.WA{vertical-align:bottom; line-height:100%; font-size:9pt; font-weight:bold; font-style:normal; text-decoration:none;}
+.WB{vertical-align:top; line-height:100%; font-size:9pt; font-weight:bold; font-style:normal; text-decoration:none;}
+.G02L, .G02C, .G02R, .G02J, .G12L, .G12C, .G12R, .G12J, .G22L, .G22C, .G22R, .G22J{font-size:12pt;}
+tr td p.M{max-width:100%; text-align:left; font-size:12pt; font-family:"courier new", courier, monospace; page-break-inside:avoid;}
+}
+@media print and (orientation:landscape){
+table{font-size:12pt;}
+p.M{font-size:11pt;}
+}
+div.ihintv{margin-top:6px; padding:2px 8px 7px 10px; border-radius:0px 0px 2px 2px; text-indent:0; text-align:justify; background-color:#d5d5d5; color:#333333;}
+div.ihint0, div.ihint1{display:none; position:fixed; z-index:9; left:0; top:0; border-radius:4px; border:2px solid #808080; padding-top:2px; text-indent:10px; text-align:left; background-color:#808080; color:#fffefb; box-shadow:2px 2px 2px #a0a0a0; font-size:16px; font-family:tahoma, arial, sans-serif; line-height:125%; word-wrap:break-word;}
+@media screen{div.ihint1{display:block;}}
+--></style>
+</head>
+<body><p> </p><p> </p><p class="T">УКАЗ</p><p> </p><p class="T">ПРЕЗИДЕНТА РОССИЙСКОЙ ФЕДЕРАЦИИ</p><p> </p><p class="T">Об изменении и признании утратившими силу некоторых актов Президента Российской Федерации</p><p> </p><p>1. Внести в состав Государственной комиссии по подготовке к празднованию 200-летия победы России в Отечественной войне 1812 года, утвержденный Указом Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102119197" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 28 декабря 2007 г. № 1755</span></a> "О праздновании 200-летия победы России в Отечественной войне 1812 года" (Собрание законодательства Российской Федерации, 2007, № 53, ст. 6572; 2009, № 3, ст. 361; 2010, № 3, ст. 274; № 8, ст. 841; № 20, ст. 2439; № 37, ст. 4646; № 50, ст. 6654; 2011, № 3, ст. 533), следующие изменения:</p><p>а) включить в состав Комиссии следующих лиц:</p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:6.875em; max-width:6.875em; min-width:6.000em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:29.125em; max-width:29.125em; min-width:25.375em;"/><tbody>
+<tr><td>Говорун О.М.</td><td><p class="R">-</p></td><td>полномочный представитель Президента Российской Федерации в Центральном федеральном округе</td></tr>
+<tr><td>Иванов С.Б.</td><td><p class="R">-</p></td><td>Руководитель Администрации Президента Российской Федерации (заместитель председателя Комиссии)</td></tr>
+<tr><td>Сурков В.Ю.</td><td><p class="R">-</p></td><td>Заместитель Председателя Правительства Российской Федерации (заместитель председателя Комиссии);</td></tr>
+</tbody></table><p>
+</p><p>б) исключить из состава Комиссии Жукова А.Д., Журову С.С., Нарышкина С.Е. и Полтавченко Г.С</p><p>2. Внести в Указ Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102126127" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 9 декабря 2008 г. № 1752</span></a> "О некоторых вопросах Межведомственной комиссии по защите государственной тайны" (Собрание законодательства Российской Федерации, 2008, № 50, ст. 5899; 2009, № 9, ст. 1087) изменение, изложив пункт 1 в следующей редакции:</p><p>"1. Назначить председателем Межведомственной комиссии по защите государственной тайны заместителя Руководителя Администрации Президента Российской Федерации Беглова А.Д.".</p><p>3. Внести в состав Совета при Президенте Российской Федерации по делам инвалидов, утвержденный Указом Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102126381" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 17 декабря 2008 г. № 1792</span></a> "О Совете при Президенте Российской Федерации по делам инвалидов" (Собрание законодательства Российской Федерации, 2008, № 51, ст. 6138; 2009, № 18, ст. 2218; 2011, № 7, ст. 936), следующие изменения:</p><p>а) включить в состав Совета следующих лиц:</p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:10.875em; max-width:10.875em; min-width:9.500em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:25.125em; max-width:25.125em; min-width:21.875em;"/><tbody>
+<tr><td>Леонтьева Е.В.</td><td><p class="R">-</p></td><td>заместитель начальника департамента Управления Президента Российской Федерации по внутренней политике (секретарь Совета)</td></tr>
+<tr><td>Пономарев И.В.</td><td><p class="R">-</p></td><td>заместитель Министра регионального развития Российской Федерации</td></tr>
+<tr><td>Черкесов Л.И.</td><td><p class="R">-</p></td><td>глава города Чебоксары</td></tr>
+<tr><td>Чуковская Е.Э.</td><td><p class="R">-</p></td><td>статс-секретарь - заместитель Министра культуры Российской Федерации</td></tr>
+<tr><td>Юрьев Е.Л.</td><td><p class="R">-</p></td><td>советник Президента Российской Федерации (заместитель председателя Совета);</td></tr>
+</tbody></table><p>б) позицию:  </p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:10.875em; max-width:10.875em; min-width:9.500em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:25.125em; max-width:25.125em; min-width:21.875em;"/><tbody>
+<tr><td>"Дворкович А.В.</td><td><p class="R">-</p></td><td>помощник Президента Российской Федерации (заместитель председателя Совета)"</td></tr>
+</tbody></table><p>заменить позицией следующего содержания: </p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:10.875em; max-width:10.875em; min-width:9.500em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:25.125em; max-width:25.125em; min-width:21.875em;"/><tbody>
+<tr><td>"Дворкович А.В.</td><td><p class="R">-</p></td><td>помощник Президента Российской Федерации (председатель Совета)";</td></tr>
+</tbody></table><p>
+</p><p>в) исключить из  состава Совета Королевского К.Ю., Малышева А.В., Нарышкина С.Е. и Шрейдера В.Ф.</p><p>4. Внести в состав Российской части Российско-Украинской межгосударственной комиссии, утвержденный Указом Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102137799" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 23 апреля 2010 г. № 512</span></a> "О Российской части Российско-Украинской межгосударственной комиссии" (Собрание законодательства Российской Федерации, 2010, № 17, ст. 2087), изменения, включив в него Иванова С.Б. - Руководителя Администрации Президента Российской Федерации (секретарь Российской части Комиссии) и исключив из него Нарышкина С.Е.</p><p>5. Внести в состав Комиссии по вопросам гражданства при Президенте Российской Федерации, утвержденный Указом Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102147009" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 22 апреля 2011 г. № 508</span></a> "Об утверждении состава Комиссии по вопросам гражданства при Президенте Российской Федерации" (Собрание законодательства Российской Федерации, 2011, № 17, ст. 2357), изменения, включив в него Иванова С.Б. - Руководителя Администрации Президента Российской Федерации (председатель Комиссии) и исключив из него Нарышкина С.Е.</p><p>6. Внести в состав рабочей группы по вопросам совершенствования законодательства Российской Федерации о некоммерческих организациях, утвержденный распоряжением Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102129478" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 8 мая 2009 г. № 289-рп</span></a> "Об образовании рабочей группы по вопросам совершенствования законодательства Российской Федерации о некоммерческих организациях" (Собрание законодательства Российской Федерации, 2009, № 19, ст. 2326; № 28, ст. 3564; 2010, № 22, ст. 2766; № 51, ст. 6936; 2011, № 33, ст. 4936), следующие изменения:</p><p>а) включить в состав рабочей группы Володина В.В. - первого заместителя Руководителя Администрации Президента Российской Федерации (руководитель рабочей группы);</p><p>б) позицию:</p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:11.125em; max-width:11.125em; min-width:9.625em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:24.875em; max-width:24.875em; min-width:21.750em;"/><tbody>
+<tr><td>"Кузьминов Я.И.</td><td><p class="R">-</p></td><td>ректор Государственного университета - Высшей школы экономики (по согласованию)"</td></tr>
+</tbody></table><p>заменить позицией следующего содержания: </p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:11.125em; max-width:11.125em; min-width:9.625em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:24.875em; max-width:24.875em; min-width:21.750em;"/><tbody>
+<tr><td>"Кузьминов Я.И.</td><td><p class="R">-</p></td><td>ректор федерального государственного автономного образовательного учреждения высшего профессионального образования "Национальный исследовательский университет "Высшая школа экономики" (по согласованию)";</td></tr>
+</tbody></table><p>в) позицию:  </p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:11.125em; max-width:11.125em; min-width:9.625em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:24.875em; max-width:24.875em; min-width:21.750em;"/><tbody>
+<tr><td>"Попов С.А.</td><td><p class="R">-</p></td><td>председатель Комитета Государственной Думы по делам общественных объединений и религиозных организаций (по согласованию)"</td></tr>
+</tbody></table><p>заменить позицией следующего содержания: </p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:11.125em; max-width:11.125em; min-width:9.625em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:24.875em; max-width:24.875em; min-width:21.750em;"/><tbody>
+<tr><td>"Попов С.А.</td><td><p class="R">-</p></td><td>первый заместитель председателя Комитета Государственной Думы по делам общественных объединений и религиозных организаций (по согласованию)";</td></tr>
+</tbody></table><p>г) позицию: </p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:11.125em; max-width:11.125em; min-width:9.625em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:24.875em; max-width:24.875em; min-width:21.750em;"/><tbody>
+<tr><td>"Шпигель Б.И.</td><td><p class="R">-</p></td><td>председатель Комиссии Совета Федерации по вопросам развития институтов гражданского общества (по согласованию)"</td></tr>
+</tbody></table><p>заменить позицией следующего содержания: </p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:11.125em; max-width:11.125em; min-width:9.625em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:24.875em; max-width:24.875em; min-width:21.750em;"/><tbody>
+<tr><td>"Шпигель Б.И.</td><td><p class="R">-</p></td><td>первый заместитель председателя Комитета Совета Федерации по конституционному законодательству, правовым и судебным вопросам, развитию гражданского общества (по согласованию)";</td></tr>
+</tbody></table><p>
+</p><p>д) исключить из состава рабочей группы Суркова В.Ю.</p><p>7. Внести в состав рабочей группы по вопросам финансового обеспечения мероприятий, направленных на совершенствование судебной системы Российской Федерации, утвержденный распоряжением Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102140422" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 30 июля 2010 г. № 507-рп</span></a> "Об образовании рабочей группы по вопросам финансового обеспечения мероприятий, направленных на совершенствование судебной системы Российской Федерации" (Собрание законодательства Российской Федерации, 2010, № 31, ст. 4233; № 33, ст. 4420; № 39, ст. 4959), следующие изменения:</p><p>а) позицию:</p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:10.500em; max-width:10.500em; min-width:9.125em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:25.500em; max-width:25.500em; min-width:22.250em;"/><tbody>
+<tr><td>"Брычева Л.И.</td><td><p class="R">-</p></td><td>помощник Президента Российской Федерации - начальник Государственно-правового управления Президента Российской Федерации"</td></tr>
+</tbody></table><p>заменить позицией следующего содержания: </p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:10.500em; max-width:10.500em; min-width:9.125em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:25.500em; max-width:25.500em; min-width:22.250em;"/><tbody>
+<tr><td>"Брычева Л.И.</td><td><p class="R">-</p></td><td>помощник Президента Российской Федерации - начальник Государственно-правового управления Президента Российской Федерации (руководитель рабочей группы)";</td></tr>
+</tbody></table><p>
+</p><p>б) исключить из состава рабочей группы Нарышкина С.Е.</p><p>8. Внести в состав организационного комитета по проведению сезонов русского языка и литературы во Французской Республике и французского языка и литературы в Российской Федерации, утвержденный распоряжением Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102150798" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 8 октября 2011 г. № 677-рп</span></a> "О проведении сезонов русского языка и литературы во Французской Республике и французского языка и литературы в Российской Федерации" (Собрание законодательства Российской Федерации, 2011, № 41, ст. 5737), следующие изменения:</p><p>а) позицию:</p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:9.375em; max-width:9.375em; min-width:8.125em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:26.625em; max-width:26.625em; min-width:23.250em;"/><tbody>
+<tr><td>"Швыдкой М.Е.</td><td><p class="R">-</p></td><td>специальный представитель Президента Российской Федерации по международному культурному сотрудничеству (координатор работы организационного комитета)"</td></tr>
+</tbody></table><p>заменить позицией следующего содержания: </p><table class="G34J" style="margin-left:0.125em; width:37.625em; min-width:37.500em;"><col style="width:9.625em; max-width:9.625em; min-width:8.375em;"/><col style="width:1.500em; max-width:1.500em; min-width:1.500em;"/><col style="width:26.375em; max-width:26.375em; min-width:23.000em;"/><tbody>
+<tr><td>"Швыдкой М.Е.</td><td><p class="R">-</p></td><td>специальный представитель Президента Российской Федерации по международному культурному сотрудничеству (председатель организационного комитета)";</td></tr>
+</tbody></table><p>
+</p><p>б) исключить из состава организационного комитета Нарышкина С.Е.</p><p>9. Признать утратившими силу:</p><p>Указ Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102125203" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 1 ноября 2008 г. № 1576</span></a> "О Совете при Президенте Российской Федерации по развитию информационного общества в Российской Федерации" (Собрание законодательства Российской Федерации, 2008, № 44, ст. 5049);</p><p>Указ Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102145639" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 1 марта 2011 г. № 251</span></a> "О внеочередной аттестации сотрудников органов внутренних дел Российской Федерации" (Собрание законодательства Российской Федерации, 2011, № 10, ст. 1337);</p><p>Указ Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102146864" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 18 апреля 2011 г. № 455</span></a> "О внесении изменений в состав Комиссии при Президенте Российской Федерации по проведению внеочередной аттестации сотрудников органов внутренних дел Российской Федерации, претендующих на замещение должностей высшего начальствующего состава в этих органах, утвержденный Указом Президента Российской Федерации от 1 марта 2011 г. № 251" (Собрание законодательства Российской Федерации, 2011, № 17, ст. 2355);</p><p>Указ Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102147476" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 12 мая 2011 г. № 635</span></a> "О внесении изменений в Указ Президента Российской Федерации от 1 марта 2011 г. № 251 "О внеочередной аттестации сотрудников органов внутренних дел Российской Федерации" (Собрание законодательства Российской Федерации, 2011, № 20, ст. 2795);</p><p>распоряжение Президента Российской Федерации <a class="doclink" href="?docbody=&amp;prevDoc=102153608&amp;backlink=1&amp;&amp;nd=102089860" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 7 декабря 2004 г. № 572-рп</span></a> (Собрание законодательства Российской Федерации, 2004, № 50, ст. 5055).</p><p>10. Настоящий Указ вступает в силу со дня его подписания.</p><p> </p><p> </p><p class="I">Президент Российской Федерации                               Д.Медведев</p><p> </p><p>Москва, Кремль</p><p>24 января 2012 года</p><p>№ 104</p><p> </p></body></html>
+</div>
+</div>
+</body>
+</html>

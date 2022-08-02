@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>О назначении судей федеральных судов и о представителях Президента Российской Федерации в квалификационных коллегиях судей субъектов Российской Федерации</title>
+<meta content="text/html; charset=utf-8; charset=utf-8" http-equiv="Content-Type"><my_meta author="Путин В." date="19.06.2019" doc_id="102562084" tags="арбитражный верховный военный городской заместитель квалификационный коллегия краевой назначение областной общий окружной освобождение председатель представитель президент районный республика субъект суд судья федеральный юрисдикция кассационный гарнизонный флотский апелляционный межрайонный" url="http://pravo.gov.ru/proxy/ips/?doc_itself=&amp;nd=102562084&amp;page=1&amp;rdk=0&amp;link_id=0#I0"></my_meta></meta>
+<link href="?doc_itself.css" rel="stylesheet" type="text/css"/>
+<script charset="windows-1251" src="?script.js" type="text/javascript"></script>
+<script charset="windows-1251" src="?json.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+        var bookMarkNumber = parseInt('', 10);
+        var textCompleted = 'True'.toLowerCase() == 'true';
+        var scrollTop = parseInt('', 10);
+
+        function goToMark() {
+            window.location.hash = "I0";
+        }
+
+        function changeFontOnLoad() {
+            if(window.parent.changeDocFont != null) {
+                window.parent.changeDocFont('t_normal');
+            }
+        }
+
+        function printOnLoad() {
+            
+        }
+
+        function loadFullText() {
+            if (textCompleted)
+                return;
+            var supportPageOffset = window.pageXOffset !== undefined;
+			var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
+			var scrollTop = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+            var textContent = document.getElementById("text_content");
+            textContent.innerHTML = '';
+            textContent.appendChild(createSpinner('?'));
+            var newUrl = document.location.href.split('#')[0];
+            newUrl += '&fulltext=1&scrolltop=' + scrollTop;
+            window.location.href = newUrl;
+            FixImagesIE();
+        }
+		function LinkParseHash(){
+					var cells = document.getElementsByTagName("a"); 
+					for (var i = 0; i < cells.length; i++) { 
+						var status = cells[i].setAttribute("target","_parent"); 
+						cells[i].setAttribute("href",cells[i].getAttribute("href")+"&forhash=1")
+					}
+		}
+
+        function loadFinished() {
+            document.doctitle = 'О назначении судей федеральных судов и о представителях Президента Российской Федерации в квалификационных коллегиях судей субъектов Российской Федерации';
+            window.docNum = parseInt('102562084', 10);
+            if (scrollTop > 0) {
+                window.scrollTo(0, scrollTop);
+            }
+            goToMark();
+            goToSelection();
+            setselchange();
+            IERecordSel();
+            changeFontOnLoad();
+            printOnLoad();
+            setLandscape();
+            if (textCompleted) {
+                hideSpinner();
+            }
+            FixImagesIE();
+        }
+
+        /*
+         Если проскролили больше половины текста, проверяем нужно ли загружать весь текст целиком
+         */
+        var didScroll = false;
+        window.onscroll = doThisStuffOnScroll;
+        function doThisStuffOnScroll() {
+            didScroll = true;
+        }
+        var refreshScrollId = setInterval(function() {
+            if(!textCompleted && didScroll) {
+                didScroll = false;
+                var scroll, height;
+                if (document.documentElement.scrollTop) {
+                    scroll = document.documentElement.scrollTop;
+                    height = document.documentElement.scrollHeight;
+                } else {
+                    scroll = document.body.scrollTop;
+                    height = document.body.scrollHeight;
+                }
+                if (scroll > height*0.7) {
+                    clearInterval(refreshScrollId);
+                    loadFullText();
+                }
+            }
+        }, 1000);
+// в IE 11 встроенный механизм ресайза работает нехорошо.
+        function FixImagesIE() {
+            if (!document.documentMode) return; // IE < 8 or not IE
+            if (navigator.userAgent.indexOf('MSIE') >= 0) return; // IE < 11
+            var images = document.querySelectorAll('img');
+            var tmpImages = [];
+            for (var i = 0; i < images.length; i++) {
+                var image = images[i];
+                var iW = images[i].naturalWidth;
+                var iH = images[i].naturalHeight;
+                var targetW = image.width;
+                var targetH = image.height;
+                if ((targetH * 2) > iH) continue; // до двухкратного уменьшения обойдемся встроенным ресайзом.
+                tmpImages[i] = new Image();
+                tmpImages[i].src = image.src;
+                tmpImages[i].setAttribute('iW', iW);
+                tmpImages[i].setAttribute('iH', iH);
+                tmpImages[i].setAttribute('targetW', targetW);
+                tmpImages[i].setAttribute('targetH', targetH);
+                tmpImages[i].setAttribute('num', i);
+                tmpImages[i].onload = function() {
+                    var iW = parseInt(this.getAttribute('iW')) / 2;
+                    var iH = parseInt(this.getAttribute('iH')) / 2;
+                    var targetW = parseInt(this.getAttribute('targetW'));
+                    var targetW = parseInt(this.getAttribute('targetH'));
+                    var num = parseInt(this.getAttribute('num'));
+                    iW = iW < targetW ? targetW : iW;
+                    iH = iH < targetH ? targetH : iH;
+                    this.setAttribute('iW', iW);
+                    this.setAttribute('iH', iH);
+                    var cnv = document.createElement('canvas');
+                    cnv.height = iH;
+                    cnv.width = iW;
+                    var ctx = cnv.getContext('2d');
+                    ctx.drawImage(this, 0, 0, iW, iH);
+                    var dataUrl = cnv.toDataURL();
+                    images[num].src = dataUrl;
+                    if (iW <= targetW || iH <= targetH) 
+                        return;
+                    this.src = dataUrl; // неявная рекурсия
+                }
+            }
+        }
+
+
+    </script>
+</head>
+<body class="doc_content_bg_default" onload="loadFinished();" style="height:100%;">
+<div class="doc_content" id="doc_content" style="width: 750px;min-width: 710px;">
+<div id="text_content">
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:st1="urn:schemas-microsoft-com:office:smarttags" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word">
+<head>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Complex</title>
+<!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View><w:ValidateAgainstSchemas/><w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid><w:IgnoreMixedContent>false</w:IgnoreMixedContent><w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText><w:Compatibility><w:SelectEntireFieldWithStartOrEnd/><w:UseWord2002TableStyleRules/></w:Compatibility><w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel></w:WordDocument></xml><![endif]-->
+<style><!--
+@page vert{size:595.3pt 841.9pt; mso-page-orientation:portrait; margin:15mm 10mm 15mm 12mm; mso-header-margin:10mm; mso-footer-margin:10mm; mso-paper-source:0;}
+@page hori{size:841.9pt 595.3pt; mso-page-orientation:landscape;margin:15mm 10mm 15mm 12mm; mso-header-margin:10mm; mso-footer-margin:10mm; mso-paper-source:0;}
+@page any {margin:15mm 10mm 15mm 12mm;}
+@page {margin:15mm 7mm 15mm 15mm;}
+body{margin:4px; border:0; padding:0; color:#333333; background:#fffffc; font-size:18px; font-family:"times new roman", times, serif; line-height:125%; word-wrap:break-word;}
+div.clip{width:680px; font-size:16px; font-family:tahoma, arial, sans-serif; line-height:100%;}
+div.comment{margin-bottom:5px; padding:5px; border-radius:5px; background-color:#d5d5d5;}
+div.time{padding:16px 0px;}
+div.past{background-color:#f0b0c0;}
+div.future{background-color:#b8f0d0;}
+div.present{background-color:#a8e0ff;}
+div.brd{margin:8px 0px; border-bottom:1px solid #a0a0a0; padding:0;}
+div.fragments{width:4000px;}
+img{margin-bottom:-5px; max-width:100%}
+p, p.P{text-indent:45px; margin:6px 0px; max-width:680px; text-align:justify; border:0; padding:0;}
+p.N{text-indent:45px; margin:6px 0px; max-width:680px; text-align:justify; border:0; padding:0; font-size:16px;}
+p.I{text-indent:0; margin-left:45px; max-width:635px; text-align:left;}
+p.K{text-indent:0; margin-left:45px; max-width:635px; text-align:justify;}
+p.H{text-indent:-81px; margin-left:126px; max-width:509px; text-align:left; font-weight:bold;}
+p.S{text-indent:0; margin-left:340px; max-width:340px; text-align:center;}
+p.C{text-indent:0; margin-left:45px; margin-right:45px; max-width:590px; text-align:center}
+p.T{text-indent:0; margin-left:45px; margin-right:45px; max-width:590px; text-align:center; font-weight:bold;}
+p.M{white-space:pre; overflow-wrap:normal; text-indent:0; max-width:4000px; text-align:left; font-size:17px; font-family:"courier new", courier, monospace;}
+p.L{text-indent:0; text-align:left;}
+p.R{text-indent:0; text-align:right;}
+p.J{text-indent:0; text-align:justify;}
+.W0{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:normal; text-decoration:none;}
+.W1{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:normal; text-decoration:underline;}
+.W2{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:italic; text-decoration:none;}
+.W3{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:italic; text-decoration:underline;}
+.W4{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:normal; text-decoration:none;}
+.W5{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:normal; text-decoration:underline;}
+.W6{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:italic; text-decoration:none;}
+.W7{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:italic; text-decoration:underline;}
+.W8{vertical-align:sub; line-height:100%; font-size:100%; font-weight:normal; font-style:normal; text-decoration:none;}
+.W9{vertical-align:super; line-height:100%; font-size:100%; font-weight:normal; font-style:normal; text-decoration:none;}
+table{table-layout:fixed;
+margin:0px 0px 4px 0px; padding:0;
+text-indent:0; text-align:left;
+box-sizing:border-box;
+border-collapse:collapse;
+border-spacing:0;
+border-width:1px;
+border-color:#a0a0a0;
+border-style:none;
+}
+tr .M{page-break-inside:avoid;}
+td{
+empty-cells:show;
+vertical-align:top;
+margin:0; padding:6px 4px 6px 4px;
+text-indent:0; text-align:left;
+border-spacing:0;
+border-width:1px;
+border-color:#a0a0a0;
+border-style:none;
+}
+td div{margin:0; border:0; padding:0; display:inline-block; -ms-writing-mode:tb-rl; -ms-transform:rotate(180deg);}
+.TB0 td, .G02L td, .G02R td, .G02C td, .G02J td, .G04L td, .G04R td, .G04C td, .G04J td{border-style:none;}
+.TB1 td, .G12L td, .G12R td, .G12C td, .G12J td, .G14L td, .G14R td, .G14C td, .G14J td{border-style:solid;}
+table.G22L tr td, table.G22R tr td, table.G22C tr td, table.G22J tr td, table.G24L tr td, table.G24R tr td, table.G24C tr td, table.G24J tr td{border-style:solid;}
+table.G32L tr td, table.G32R tr td, table.G32C tr td, table.G32J tr td, table.G34L tr td, table.G34R tr td, table.G34C tr td, table.G34J tr td{border-style:none;}
+table td.X0{border-style:none;}
+table td.X1{border-style:solid none none none;}
+table td.X2{border-style:none solid none none;}
+table td.X3{border-style:solid solid none none;}
+table td.X4{border-style:none none solid none;}
+table td.X5{border-style:solid none solid none;}
+table td.X6{border-style:none solid solid none;}
+table td.X7{border-style:solid solid solid none;}
+table td.X8{border-style:none none none solid;}
+table td.X9{border-style:solid none none solid;}
+table td.XA{border-style:none solid none solid;}
+table td.XB{border-style:solid solid none solid;}
+table td.XC{border-style:none none solid solid;}
+table td.XD{border-style:solid none solid solid;}
+table td.XE{border-style:none solid solid solid;}
+table td.XF{border-style:solid;}
+td, td p, .TAL td, .TAL td p, tr td p.L, .G02L td, .G02L td p, .G04L td, .G04L td p, .G12L td, .G12L td p, .G14L td, .G14L td p, .G22L td, .G22L td p, .G24L td, .G24L td p, .G32L td, .G32L td p, .G34L td, .G34L td p{text-indent:0; margin:0; max-width:100%; text-align:left;}
+.TAC td, .TAC td p, tr td p.C, .G02C td, .G02C td p, .G04C td, .G04C td p, .G12C td, .G12C td p, .G14C td, .G14C td p, .G22C td, .G22C td p, .G24C td, .G24C td p, .G32C td, .G32C td p, .G34C td, .G34C td p{text-indent:0; margin:0; max-width:100%; text-align:center}
+.TAR td, .TAR td p, tr td p.R, .G02R td, .G02R td p, .G04R td, .G04R td p, .G12R td, .G12R td p, .G14R td, .G14R td p, .G22R td, .G22R td p, .G24R td, .G24R td p, .G32R td, .G32R td p, .G34R td, .G34R td p{text-indent:0; margin:0; max-width:100%; text-align:right;}
+.TAJ td, .TAJ td p, tr td p.J, .G02J td, .G02J td p, .G04J td, .G04J td p, .G12J td, .G12J td p, .G14J td, .G14J td p, .G22J td, .G22J td p, .G24J td, .G24J td p, .G32J td, .G32J td p, .G34J td, .G34J td p{text-indent:0; margin:0; max-width:100%; text-align:justify;}
+tr td p.P{text-indent:38px; margin:0; max-width:100%; text-align:justify;}
+tr td p.N{text-indent:38px; margin:0; max-width:100%; text-align:justify; font-size:16px;}
+tr td p.I{text-indent:0; margin:0px 0px 0px 38px; max-width:100%; text-align:left;}
+tr td p.K{text-indent:0; margin:0px 0px 0px 38px; max-width:100%; text-align:justify;}
+tr td p.H{text-indent:-81px; margin:0px 38px 0px 119px; max-width:100%; text-align:left; font-weight:bold;}
+tr td p.T{text-indent:0; margin:0px 38px 0px 38px; max-width:100%; text-align:center; font-weight:bold;}
+tr.holder td{visibility: hidden; height:0; border-style:none; padding:0; font-size:4px; line-height:0.125em;}
+.G02L, .G02C, .G02R, .G02J, .G12L, .G12C, .G12R, .G12J, .G22L, .G22C, .G22R, .G22J{font-size:16px;}
+tr td p.M{max-width:100%; text-align:left; font-size:14px; font-family:"courier new", courier, monospace;}
+div.clip{page:any;}
+div.fragments{page:any;}
+@media screen{
+em{background-color:#f0f0f0; color:#1111ee;}
+span.edx, span.markx{background-color:#f0f0f0;}
+span.ed{color:#1111ee;}
+span.mark{color:#1111ee; font-weight:normal; font-style:italic; text-decoration:none;}
+span.cmd{cursor:pointer; color:#1111ee; font-weight:normal; font-style:normal; text-decoration:underline;}
+span.cmdx{background-color:#ead099;}
+.W8{vertical-align:bottom; line-height:100%; font-size:11px; font-weight:normal; font-style:normal; text-decoration:none;}
+.W9{vertical-align:top; line-height:100%; font-size:11px; font-weight:normal; font-style:normal; text-decoration:none;}
+}
+@media print{
+body{margin:0; border:0; padding:0; color:#333333; background:white; font-size:13.5pt; font-family:"times new roman", times, serif; line-height:125%; word-wrap:break-word;}
+div.clip{width:100%; font-size:11pt; font-family:tahoma, arial, sans-serif; line-height:100%;}
+div.comment{margin-bottom:1ex; padding:1ex;}
+div.time{padding:0ex 0ex 1ex 0ex;}
+div.fragments{width:100%;}
+p, p.P{text-indent:7ex; max-width:100%; text-align:justify; margin:5pt 0pt; border:0; padding:0;}
+p.N{text-indent:8ex; max-width:100%; text-align:justify; margin:5pt 0pt; border:0; padding:0;}
+p.I{text-indent:0; margin-left:7ex; max-width:100%; text-align:left;}
+p.K{text-indent:0; margin-left:7ex; max-width:100%; text-align:justify;}
+p.H{text-indent:-10ex; margin-left:17ex; margin-right:7ex; max-width:100%; text-align:left; font-weight:bold;}
+p.S{text-indent:0; margin-left:auto; margin-right:0; max-width:40ex; text-align:center;}
+p.C{text-indent:0; margin-left:5ex; margin-right:5ex; max-width:100%; text-align:center;}
+p.T{text-indent:0; margin-left:5ex; margin-right:5ex; max-width:100%; text-align:center; font-weight:bold;}
+p.M{white-space:pre; overflow-wrap:normal; text-indent:0; max-width:100%; text-align:left; font-size:12.5pt; font-family:"courier new", courier, monospace;}
+span.mark{font-weight:normal; font-style:italic; text-decoration:none;}
+span.cmd{font-weight:normal; font-style:normal; text-decoration:none;}
+.W8{vertical-align:bottom; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal; text-decoration:none;}
+.W9{vertical-align:top; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal; text-decoration:none;}
+.G02L, .G02C, .G02R, .G02J, .G12L, .G12C, .G12R, .G12J, .G22L, .G22C, .G22R, .G22J{font-size:12pt;}
+tr td p.M{max-width:100%; text-align:left; font-size:12pt; font-family:"courier new", courier, monospace;}
+}
+@media print and (orientation:landscape){
+table{font-size:12pt;}
+p.M{font-size:11pt;}
+}
+--></style>
+</head>
+<body>
+<p> </p><p> </p><p class="T">УКАЗ</p><p> </p><p class="T">ПРЕЗИДЕНТА РОССИЙСКОЙ ФЕДЕРАЦИИ</p><p> </p><p class="T">О назначении судей федеральных судов и о представителях Президента Российской Федерации в квалификационных коллегиях судей субъектов Российской Федерации</p><p> </p><p>Руководствуясь статьями 83 и 128 Конституции Российской Федерации, а также в соответствии со статьей 11 Федерального закона <a class="doclink" href="?docbody=&amp;prevDoc=102562084&amp;backlink=1&amp;&amp;nd=102075267" onclick="window.parent.location.href=this.href" target="contents"><span class="cmd" style="">от 14 марта 2002 г. № 30-ФЗ</span></a> "Об органах судейского сообщества в Российской Федерации", постановляю:</p><p>1. Назначить на 6-летний срок полномочий:</p><p>а) в кассационных судах общей юрисдикции, Верховном Суде Республики Адыгея, Краснодарском краевом суде и областных судах:</p><p> </p><p class="C">заместителем председателя Первого кассационного суда <br/>общей юрисдикции</p><p>Радченко Татьяну Вениаминовну</p><p> </p><p class="C">заместителем председателя Седьмого кассационного суда <br/>общей юрисдикции</p><p>Горлача Бориса Николаевича</p><p> </p><p class="C">Председателем Верховного Суда Республики Адыгея</p><p>Шумена Байзета Азметовича</p><p> </p><p class="C">председателем Краснодарского краевого суда</p><p>Шипилова Алексея Николаевича</p><p> </p><p class="C">заместителем председателя Ивановского областного суда</p><p>Коновалову Светлану Николаевну</p><p> </p><p class="C">председателем Кемеровского областного суда</p><p>Ордынского Алексея Владимировича</p><p> </p><p class="C">заместителем председателя Ленинградского областного суда</p><p>Пучинина Дмитрия Анатольевича</p><p> </p><p class="C">заместителем председателя Пензенского областного суда</p><p>Гараеву Елену Диаровну</p><p> </p><p class="C">председателем Тульского областного суда</p><p>Хорошилова Игоря Михайловича</p><p> </p><p class="C">председателем Тюменского областного суда</p><p>Антропова Вячеслава Рудольфовича;</p><p> </p><p>б) в районных судах:</p><p> </p><p class="C">в Республике Тыва</p><p class="C">председателем Пий-Хемского районного суда</p><p>Чернову Светлану Анатольевну</p><p> </p><p class="C">в Республике Хакасия</p><p class="C">председателем Алтайского районного суда</p><p>Белоногову Наталью Геннадьевну</p><p> </p><p class="C">в Камчатском крае</p><p class="C">заместителем председателя Елизовского районного суда</p><p>Бондаренко Светлану Сергеевну</p><p> </p><p class="C">в Краснодарском крае<br/>председателем Ейского городского суда</p><p>Панченко Сергея Леонидовича</p><p> </p><p class="C">в Приморском крае<br/>заместителем председателя Дальнереченского районного суда</p><p>Попову Татьяну Викторовну</p><p class="C">заместителем председателя Ленинского районного суда<br/>г. Владивостока</p><p>Третьякову Диану Константиновну</p><p class="C">председателем Октябрьского районного суда</p><p>Ижко Антона Юрьевича</p><p class="C">председателем Партизанского городского суда</p><p>Кравчук Елену Владимировну</p><p> </p><p class="C">в Хабаровском крае<br/>председателем Нанайского районного суда</p><p>Якина Андрея Александровича</p><p> </p><p class="C">в Амурской области<br/>председателем Свободненского городского суда</p><p>Назарова Алексея Владимировича</p><p> </p><p class="C">в Волгоградской области<br/>заместителем председателя Городищенского районного суда</p><p>Клыкова Андрея Михайловича</p><p> </p><p class="C">в Иркутской области<br/>председателем Балаганского районного суда</p><p>Ещенко Александра Николаевича</p><p class="C">председателем Баяндаевского районного суда</p><p>Орноеву Татьяну Александровну</p><p class="C">заместителем председателя Кировского районного суда<br/>г. Иркутска</p><p>Почепову Светлану Владимировну</p><p> </p><p class="C">в Кировской области<br/>заместителем председателя Октябрьского районного суда г. Кирова</p><p>Уськову Анну Николаевну</p><p> </p><p class="C">в Костромской области<br/>председателем Костромского районного суда</p><p>Спивак Светлану Геннадьевну</p><p class="C">председателем Свердловского районного суда<br/>г. Костромы</p><p>Муравьеву Елену Анатольевну</p><p> </p><p class="C">в Курской области<br/>председателем Рыльского районного суда</p><p>Березникову Елену Михайловну</p><p> </p><p class="C">в Ленинградской области<br/>председателем Подпорожского городского суда</p><p>Дедова Александра Леонидовича</p><p> </p><p class="C">в Мурманской области<br/>председателем Полярного районного суда</p><p>Вяткина Александра Юрьевича</p><p> </p><p class="C">в Нижегородской области<br/>председателем Варнавинского районного суда</p><p>Страхова Андрея Николаевича</p><p> </p><p class="C">в Новосибирской области<br/>председателем Коченевского районного суда</p><p>Черкасову Ольгу Владимировну</p><p> </p><p class="C">в Ростовской области<br/>председателем Батайского городского суда</p><p>Сологуба Игоря Григорьевича</p><p class="C">заместителем председателя Первомайского районного суда<br/>г. Ростова-на-Дону</p><p>Морозова Игоря Валерьевича</p><p> </p><p class="C">в Сахалинской области<br/>председателем Александровск-Сахалинского городского суда</p><p>Захарова Дмитрия Геннадьевича</p><p class="C">председателем Южно-Сахалинского городского суда</p><p>Князеву Дарью Андреевну</p><p> </p><p class="C">в Свердловской области<br/>заместителем председателя Железнодорожного районного суда<br/>г. Екатеринбурга</p><p>Иванову Елену Михайловну</p><p class="C">председателем Невьянского городского суда</p><p>Орлову Татьяну Анатольевну</p><p> </p><p class="C">в Тверской области<br/>заместителем председателя Бежецкого межрайонного суда</p><p>Глебова Сергея Александровича</p><p class="C">председателем Бежецкого межрайонного суда</p><p>Прохорова Федора Александровича</p><p class="C">председателем Максатихинского межрайонного суда</p><p>Бойко Виталия Владимировича</p><p class="C">председателем Осташковского межрайонного суда</p><p>Нечаева Сергея Анатольевича</p><p class="C">заместителем председателя Пролетарского районного суда<br/>г. Твери</p><p>Михайлову Елену Владимировну</p><p> </p><p class="C">в Тульской области<br/>заместителем председателя Центрального районного суда <br/>г. Тулы</p><p>Новикова Евгения Александровича</p><p> </p><p class="C">в Ульяновской области<br/>председателем Сенгилеевского районного суда</p><p>Шестаеву Наталью Ивановну</p><p> </p><p class="C">в Челябинской области<br/>председателем Еманжелинского городского суда</p><p>Грачёва Михаила Анатольевича</p><p> </p><p class="C">в Ярославской области<br/>председателем Брейтовского районного суда</p><p>Ухову Татьяну Сергеевну</p><p class="C">заместителем председателя Кировского районного суда<br/>г. Ярославля</p><p>Бабикову Ирину Николаевну</p><p> </p><p class="C">в Ямало-Ненецком автономном округе<br/>заместителем председателя Ноябрьского городского суда</p><p>Бажеву Елену Владимировну;</p><p> </p><p>в) в военных судах:</p><p> </p><p class="C">заместителем председателя кассационного военного суда</p><p>Корякина Вадима Георгиевича</p><p> </p><p class="C">заместителями председателя апелляционного военного суда</p><p>Кожевникова Бориса Аширбаевича</p><p>Ноговицына Андрея Анатольевича</p><p> </p><p class="C">заместителями председателя Центрального окружного военного суда</p><p>Ментова Вадима Геннадьевича</p><p>Соловья Анатолия Александровича</p><p> </p><p class="C">председателем Балтийского флотского военного суда</p><p>Поваляева Константина Петровича</p><p> </p><p class="C">председателем Северного флотского военного суда</p><p>Данилова Владимира Валентиновича</p><p> </p><p class="C">заместителем председателя Крымского гарнизонного военного суда</p><p>Быкова Вячеслава Сергеевича</p><p> </p><p class="C">председателем Курского гарнизонного военного суда</p><p>Смирнова Максима Геннадьевича</p><p> </p><p class="C">председателем Пермского гарнизонного военного суда</p><p>Малмыгина Дмитрия Владимировича</p><p> </p><p class="C">председателем Североморского гарнизонного военного суда</p><p>Бельского Игоря Гуликовича</p><p> </p><p class="C">председателем Тамбовского гарнизонного военного суда</p><p>Калинина Николая Петровича;</p><p> </p><p>г) в арбитражных судах:</p><p> </p><p class="C">заместителем председателя Двадцатого арбитражного <br/>апелляционного суда</p><p>Селивончика Артура Григорьевича</p><p> </p><p class="C">председателем Арбитражного суда Республики Бурятия</p><p>Сонина Анатолия Анатольевича</p><p> </p><p class="C">председателем Арбитражного суда Калужской области</p><p>Туманова Владислава Николаевича</p><p> </p><p class="C">заместителем председателя Арбитражного суда Липецкой области</p><p>Коровина Артема Александровича</p><p> </p><p class="C">председателем Арбитражного суда Мурманской области</p><p>Вострякова Константина Анатольевича</p><p> </p><p class="C">заместителем председателя Арбитражного суда<br/>Новгородской области</p><p>Козлову Ирину Вячеславовну</p><p> </p><p class="C">заместителем председателя Арбитражного суда<br/>Новосибирской области</p><p>Попову Ирину Валериевну</p><p> </p><p class="C">заместителем председателя Арбитражного суда<br/>Омской области</p><p>Хвостунцева Андрея Михайловича</p><p> </p><p class="C">председателем Арбитражного суда Самарской области</p><p>Каплина Сергея Юрьевича.</p><p> </p><p>2. Назначить на период до достижения предельного возраста пребывания в должности судьи председателем Сланцевского городского суда Ленинградской области Пархоменко Нину Николаевну.</p><p>3. Назначить:</p><p>а) в Верховном Суде Республики Дагестан и Свердловском областном суде:</p><p> </p><p class="C">судьей Верховного Суда Республики Дагестан</p><p>Пономаренко Дмитрия Витальевича</p><p> </p><p class="C">судьей Свердловского областного суда</p><p>Бочкареву Елену Юрьевну;</p><p> </p><p>б) в районных судах:</p><p> </p><p class="C">в Республике Коми <br/>судьей Сыктывдинского районного суда</p><p>Сурнину Татьяну Александровну</p><p> </p><p class="C">в Республике Крым<br/>судьей Ленинского районного суда</p><p>Верескуна Вадима Григорьевича</p><p> </p><p class="C">в Республике Мордовия<br/>судьей Октябрьского районного суда г. Саранска</p><p>Дубровину Екатерину Яковлевну</p><p class="C">судьей Пролетарского районного суда г. Саранска</p><p>Балясину Инну Георгиевну</p><p> </p><p class="C">в Республике Татарстан<br/>судьей Набережночелнинского городского суда</p><p>Касимуллина Раушана Шамсулловича</p><p class="C">судьей Приволжского районного суда г. Казани</p><p>Лебедеву Аиду Фаруковну</p><p> </p><p class="C">в Удмуртской Республике<br/>судьей Октябрьского районного суда г. Ижевска</p><p>Петрову Евгению Владимировну</p><p> </p><p class="C">в Республике Хакасия<br/>судьей Абаканского городского суда</p><p>Глущакова Евгения Владимировича</p><p> </p><p class="C">в Чувашской Республике<br/>судьей Козловского районного суда</p><p>Филиппова Александра Николаевича</p><p> </p><p class="C">в Алтайском крае<br/>судьей Белокурихинского городского суда</p><p>Дулепинского Александра Валерьевича</p><p class="C">судьей Центрального районного суда г. Барнаула</p><p>Сергееву Ирину Вячеславовну</p><p> </p><p class="C">в Краснодарском крае<br/>судьей Крыловского районного суда</p><p>Березу Татьяну Николаевну</p><p class="C">судьей Центрального районного суда г. Сочи</p><p>Воронкову Анну Кирилловну</p><p> </p><p class="C">в Красноярском крае<br/>судьей Березовского районного суда</p><p>Есину Светлану Валерьевну</p><p class="C">судьей Дивногорского городского суда</p><p>Поцепневу Наталью Владимировну</p><p class="C">судьей Железногорского городского суда</p><p>Марткачакову Татьяну Валерьевну</p><p class="C">судьей Илимпийского районного суда</p><p>Попову Яну Юрьевну</p><p class="C">судьей Козульского районного суда</p><p>Хабарову Марию Евгеньевну</p><p class="C">судьей Норильского городского суда</p><p>Гладких Дарью Александровну</p><p class="C">судьями Октябрьского районного суда г. Красноярска</p><p>Корнийчук Юлию Павловну</p><p>Кривец Елену Викторовну</p><p class="C">судьей Свердловского районного суда г. Красноярска</p><p>Устюгову Анжелику Викторовну</p><p class="C">судьями Советского районного суда г. Красноярска</p><p>Критинину Ирину Викторовну</p><p>Куреневу Татьяну Сергеевну</p><p> </p><p class="C">в Пермском крае<br/>судьей Губахинского городского суда</p><p>Кокшову Марину Владимировну</p><p class="C">судьей Ленинского районного суда г. Перми</p><p>Шпигарь Юлию Николаевну</p><p class="C">судьей Соликамского городского суда</p><p>Гиниятуллину Эльвиру Рамилевну</p><p> </p><p class="C">в Приморском крае<br/>судьей Дальнегорского районного суда</p><p>Рябец Татьяну Владимировну</p><p class="C">судьей Спасского районного суда</p><p>Ловейко Михаила Сергеевича</p><p> </p><p class="C">в Хабаровском крае<br/>судьей Николаевского-на-Амуре городского суда</p><p>Ковалихину Дарью Александровну</p><p> </p><p class="C">в Архангельской области<br/>судьей Коношского районного суда</p><p>Груздева Льва Александровича</p><p class="C">судьей Ломоносовского районного суда г. Архангельска</p><p>Жданову Анастасию Андреевну</p><p class="C">судьей Северодвинского городского суда</p><p>Брагина Сергея Леонидовича</p><p class="C">судьей Соломбальского районного суда г. Архангельска</p><p>Беляеву Наталью Сергеевну</p><p> </p><p class="C">в Астраханской области<br/>судьей Советского районного суда г. Астрахани</p><p>Синельникову Наталью Павловну</p><p> </p><p class="C">в Брянской области<br/>судьей Карачевского районного суда</p><p>Приходько Раду Николаевну</p><p class="C">судьей Советского районного суда г. Брянска</p><p>Мазур Татьяну Владимировну</p><p> </p><p class="C">во Владимирской области<br/>судьей Петушинского районного суда</p><p>Левшина Дмитрия Александровича</p><p> </p><p class="C">в Волгоградской области<br/>судьей Городищенского районного суда</p><p>Стрепетову Юлию Викторовну</p><p class="C">судьей Дзержинского районного суда г. Волгограда</p><p>Землянухину Наталью Сергеевну</p><p class="C">судьей Котовского районного суда</p><p>Попова Михаила Викторовича</p><p class="C">судьей Краснослободского районного суда</p><p>Новикова Федора Александровича</p><p class="C">судьей Тракторозаводского районного суда<br/>г. Волгограда</p><p>Струк Ирину Григорьевну</p><p> </p><p class="C">в Вологодской области<br/>судьей Вологодского городского суда</p><p>Лебедеву Наталью Николаевну</p><p> </p><p class="C">в Ивановской области<br/>судьей Вичугского городского суда</p><p>Бразера Александра Андреевича</p><p class="C">судьей Кинешемского городского суда</p><p>Шустину Екатерину Викторовну</p><p> </p><p class="C">в Иркутской области<br/>судьей Ангарского городского суда</p><p>Крючкову Надежду Валерьевну</p><p class="C">судьей Братского районного суда</p><p>Громову Елену Николаевну</p><p class="C">судьей Кировского районного суда г. Иркутска</p><p>Сучилину Анну Александровну</p><p class="C">судьей Усольского городского суда</p><p>Туркову Елену Анатольевну</p><p class="C">судьей Шелеховского городского суда</p><p>Пискун Татьяну Александровну</p><p> </p><p class="C">в Кемеровской области<br/>судьей Анжеро-Судженского городского суда</p><p>Васика Олега Владимировича</p><p class="C">судьей Центрального районного суда г. Прокопьевска</p><p>Котыхова Павла Николаевича</p><p> </p><p class="C">в Кировской области<br/>судьей Ленинского районного суда г. Кирова</p><p>Смолина Сергея Владимировича</p><p> </p><p class="C">в Костромской области<br/>судьей Шарьинского районного суда</p><p>Злобину Наталью Сергеевну</p><p> </p><p class="C">в Курганской области<br/>судьей Далматовского районного суда</p><p>Рахимову Алену Викторовну</p><p class="C">судьей Курганского городского суда</p><p>Макееву Инну Сергеевну</p><p> </p><p class="C">в Курской области<br/>судьей Горшеченского районного суда</p><p>Куликову Татьяну Сергеевну</p><p> </p><p class="C">в Ленинградской области<br/>судьей Кировского городского суда</p><p>Зубакину Надежду Юрьевну</p><p> </p><p class="C">в Липецкой области<br/>судьей Советского районного суда г. Липецка</p><p>Ферапонтову Екатерину Александровну</p><p> </p><p class="C">в Магаданской области<br/>судьей Магаданского городского суда</p><p>Семёнову Марию Васильевну</p><p> </p><p class="C">в Московской области<br/>судьей Реутовского городского суда</p><p>Волкову Эку Отаровну</p><p> </p><p class="C">в Нижегородской области<br/>судьей Богородского городского суда</p><p>Сапитон Марину Васильевну</p><p class="C">судьей Борского городского суда</p><p>Шаброву Анну Александровну</p><p class="C">судьей Павловского городского суда</p><p>Пестова Дмитрия Игоревича</p><p class="C">судьей Пильнинского районного суда</p><p>Шишечкину Ирину Николаевну</p><p class="C">судьей Семеновского районного суда</p><p>Кивкуцана Никиту Андреевича</p><p class="C">судьей Советского районного суда <br/>г. Нижний Новгород</p><p>Фазлетдинова Алексея Игоревича</p><p> </p><p class="C">в Новгородской области<br/>судьей Боровичского районного суда</p><p>Ежкову Юлию Вадимовну</p><p class="C">судьей Старорусского районного суда</p><p>Воронину Екатерину Борисовну</p><p> </p><p class="C">в Новосибирской области<br/>судьей Дзержинского районного суда г. Новосибирска</p><p>Аверченко Дмитрия Александровича</p><p class="C">судьей Калининского районного суда г. Новосибирска</p><p>Жданова Сергея Кирилловича</p><p class="C">судьей Ленинского районного суда г. Новосибирска</p><p>Бурову Елену Владимировну</p><p> </p><p class="C">в Омской области<br/>судьей Кировского районного суда г. Омска</p><p>Ашуху Валентину Михайловну</p><p> </p><p class="C">в Оренбургской области<br/>судьей Оренбургского районного суда</p><p>Рязяпову Дилару Ильдаровну</p><p class="C">судьей Промышленного районного суда г. Оренбурга </p><p>Горбачеву Татьяну Викторовну</p><p> </p><p class="C">в Орловской области<br/>судьей Малоархангельского районного суда</p><p>Соколова Романа Юрьевича</p><p> </p><p class="C">в Пензенской области<br/>судьей Бессоновского районного суда</p><p>Торгашина Илью Михайловича</p><p class="C">судьей Колышлейского районного суда</p><p>Маркееву Светлану Ивановну</p><p> </p><p class="C">в Псковской области<br/>судьей Пыталовского районного суда</p><p>Григорьева Максима Александровича</p><p> </p><p class="C">в Ростовской области<br/>судьей Азовского городского суда</p><p>Яковлеву Викторию Валерьевну</p><p class="C">судьей Новошахтинского районного суда</p><p>Гармаш Юлию Сергеевну</p><p> </p><p class="C">в Самарской области<br/>судьей Кировского районного суда г. Самары</p><p>Ситникова Дмитрия Сергеевича</p><p class="C">судьей Центрального районного суда г. Тольятти</p><p>Федорову Анастасию Петровну</p><p> </p><p class="C">в Саратовской области<br/>судьей Балашовского районного суда</p><p>Понамарева Олега Валентиновича</p><p class="C">судьей Волжского районного суда г. Саратова</p><p>Тютюкину Ирину Валентиновну</p><p> </p><p class="C">в Сахалинской области<br/>судьями Южно-Сахалинского городского суда</p><p>Матвееву Татьяну Павловну</p><p>Плескову Викторию Александровну</p><p> </p><p class="C">в Свердловской области<br/>судьей Березовского городского суда</p><p>Цыпину Екатерину Васильевну</p><p class="C">судьей Верх-Исетского районного суда г. Екатеринбурга</p><p>Орлову Татьяну Михайловну</p><p class="C">судьей Кировского районного суда г. Екатеринбурга</p><p>Деминцеву Елену Викторовну</p><p> </p><p class="C">в Смоленской области<br/>судьей Сычевского районного суда</p><p>Климову Веру Владимировну</p><p> </p><p class="C">в Тверской области<br/>судьями Бежецкого межрайонного суда</p><p>Михайлову Марину Юрьевну</p><p>Субботина Александра Ивановича</p><p class="C">судьей Вышневолоцкого межрайонного суда</p><p>Становову Аллу Анатольевну</p><p class="C">судьями Кашинского межрайонного суда</p><p>Засимовского Алексея Владимировича</p><p>Чеботареву Татьяну Алексеевну</p><p class="C">судьей Кимрского городского суда</p><p>Благонадеждину Наталью Львовну</p><p class="C">судьей Конаковского городского суда</p><p>Шейхова Тамерлана Сагидовича</p><p class="C">судьей Московского районного суда г. Твери</p><p>Сметанникову Евгению Николаевну</p><p class="C">судьями Осташковского межрайонного суда</p><p>Лебедеву Ольгу Николаевну</p><p>Ракитского Николая Витальевича</p><p>Худякова Валерия Александровича</p><p class="C">судьей Ржевского городского суда</p><p>Степуленко Ольгу Борисовну</p><p class="C">судьями Торжокского межрайонного суда</p><p>Иванковича Андрея Витальевича</p><p>Кислову Ольгу Владимировну</p><p>Нестеренко Романа Николаевича</p><p> </p><p class="C">в Тульской области</p><p class="C">судьей Киреевского районного суда</p><p>Железцову Ольгу Игоревну</p><p class="C">судьей Щекинского районного суда</p><p>Епифанову Юлию Владимировну</p><p> </p><p class="C">в Челябинской области</p><p class="C">судьями Калининского районного суда г. Челябинска</p><p>Виденееву Олесю Валерьевну</p><p>Ерофеева Антона Александровича</p><p class="C">судьей Сосновского районного суда</p><p>Громову Виолетту Юрьевну</p><p class="C">судьей Троицкого городского суда</p><p>Стратий Марию Евгеньевну</p><p> </p><p class="C">в городе Москве</p><p class="C">судьей Бабушкинского районного суда</p><p>Еремеева Илью Владимировича</p><p class="C">судьей Дорогомиловского районного суда</p><p>Смелянскую Нину Павловну</p><p class="C">судьей Зеленоградского районного суда</p><p>Шестакова Антона Вячеславовича</p><p> </p><p class="C">в городе Санкт-Петербурге</p><p class="C">судьей Ленинского районного суда</p><p>Хворова Евгения Дмитриевича</p><p> </p><p class="C">в Еврейской автономной области</p><p class="C">судьей Биробиджанского районного суда</p><p>Цыкину Юлию Викторовну</p><p> </p><p class="C">в Чукотском автономном округе</p><p class="C">судьей Анадырского районного суда</p><p>Разоренова Владимира Валентиновича;</p><p> </p><p>в) в военных судах:</p><p> </p><p class="C">судьей Северо-Кавказского окружного военного суда</p><p>Кривцова Кирилла Николаевича</p><p> </p><p class="C">судьей Грозненского гарнизонного военного суда</p><p>Килярова Мухамеда Хасанбиевича</p><p> </p><p class="C">судьей Махачкалинского гарнизонного военного суда</p><p>Пономаренко Олега Владимировича</p><p> </p><p class="C">судьей Хабаровского гарнизонного военного суда</p><p>Холода Антона Николаевича;</p><p> </p><p>г) в арбитражных судах:</p><p> </p><p class="C">судьей Арбитражного суда Поволжского округа</p><p>Самсонова Владимира Александровича</p><p> </p><p class="C">судьей Арбитражного суда Северо-Западного округа</p><p>Воробьеву Юлию Владимировну</p><p> </p><p class="C">судьей Шестого арбитражного апелляционного суда</p><p>Усенко Жанну Александровну</p><p> </p><p class="C">судьей Седьмого арбитражного апелляционного суда</p><p>Аюшева Дамира Нягазыфовича</p><p> </p><p class="C">судьей Одиннадцатого арбитражного апелляционного суда</p><p>Коршикову Екатерину Владимировну</p><p> </p><p class="C">судьей Арбитражного суда Краснодарского края</p><p>Вологдину Екатерину Викторовну</p><p> </p><p class="C">судьей Арбитражного суда Калининградской области</p><p>Брызгалову Анну Владимировну</p><p> </p><p class="C">судьей Арбитражного суда Курганской области</p><p>Скиндереву Викторию Вячеславовну</p><p> </p><p class="C">судьей Арбитражного суда Нижегородской области</p><p>Загребину Светлану Сергеевну</p><p> </p><p class="C">судьей Арбитражного суда Омской области</p><p>Бацман Наталью Валерьевну</p><p> </p><p class="C">судьями Арбитражного суда Оренбургской области</p><p>Лисовскую Екатерину Владимировну</p><p>Щербакову Светлану Викторовну</p><p> </p><p class="C">судьей Арбитражного суда Орловской области</p><p>Дееву Наталью Евгеньевну</p><p> </p><p class="C">судьей Арбитражного суда Рязанской области</p><p>Киселеву Татьяну Валерьевну</p><p> </p><p class="C">судьей Арбитражного суда Свердловской области</p><p>Ашихмину Евгению Сергеевну</p><p> </p><p class="C">судьей Арбитражного суда Тульской области</p><p>Макосеева Илью Николаевича</p><p> </p><p class="C">судьей Арбитражного суда Ульяновской области</p><p>Кирюхину Людмилу Юрьевну</p><p> </p><p class="C">судьей Арбитражного суда Челябинской области</p><p>Кудрявцеву Анастасию Викторовну</p><p> </p><p class="C">судьями Арбитражного суда города Москвы</p><p>Григорьеву Ирину Михайловну</p><p>Каленюк Валентину Сергеевну</p><p>Кантара Максима Игорьевича</p><p>Кипель Марину Теймуразовну</p><p>Климову Евгению Петровну</p><p>Коршикову Елену Викторовну</p><p>Ликшикова Эрдни Борисовича</p><p> </p><p class="C">судьями Арбитражного суда города Санкт-Петербурга и<br/> Ленинградской области</p><p>Бугорскую Наталью Анатольевну</p><p>Мигукину Наталию Эдуардовну.</p><p> </p><p class="I">4. Назначить со 2 сентября 2019 г.:</p><p>а) в кассационных и апелляционных судах общей юрисдикции:</p><p> </p><p class="C">судьями Первого кассационного суда общей юрисдикции</p><p>Александрова Алексея Викторовича</p><p>Балашова Алексея Николаевича</p><p>Баранова Геннадия Васильевича</p><p>Батулину Елену Николаевну</p><p>Гольман Светлану Владимировну</p><p>Евстигнееву Ольгу Вячеславовну</p><p>Елизарова Андрея Рудольфовича</p><p>Изоткину Инну Валерьевну</p><p>Князькова Михаила Алексеевича</p><p>Козлова Александра Михайловича</p><p>Озерова Александра Юрьевича</p><p>Спрыгину Ольгу Борисовну</p><p>Тарасову Светлану Михайловну</p><p>Улитину Евгению Львовну</p><p>Филатову Викторию Юрьевну </p><p>Шабанову Ольгу Николаевну</p><p>Шамонина Олега Александровича </p><p>Шостак Руслану Николаевну</p><p> </p><p class="C">судьей Третьего кассационного суда общей юрисдикции</p><p>Цоя Алексея Альбертовича</p><p> </p><p class="C">судьями Четвертого кассационного суда общей юрисдикции</p><p>Борс Харет Зауровну</p><p>Брянского Вадима Юрьевича</p><p>Горковенко Виталия Александровича</p><p>Грибанова Юрия Юрьевича</p><p>Иванову Ольгу Николаевну</p><p>Капункина Юрия Борисовича</p><p>Караулова Максима Геннадьевича</p><p>Косарева Игоря Эриковича</p><p>Кудрявцеву Елену Николаевну</p><p>Малаеву Викторию Григорьевну</p><p>Маслова Олега Викторовича</p><p>Никольскую Ольгу Львовну</p><p>Песоцкого Виталия Владимировича</p><p>Русакова Александра Евгеньевича</p><p>Харитонова Алексея Сергеевича</p><p>Шумакову Юлию Михайловну</p><p> </p><p class="C">судьями Шестого кассационного суда общей юрисдикции</p><p>Белова Виталия Ивановича</p><p>Вышутину Татьяну Николаевну</p><p>Гильфанова Рамиля Равиловича</p><p>Емелина Александра Владимировича</p><p>Ждановича Андрея Сергеевича</p><p>Иванову Наталью Александровну</p><p>Ившину Татьяну Вячеславовну</p><p>Колесникову Елену Владимировну</p><p>Ляпина Наиля Абдулхаковича</p><p>Муромцеву Ларису Константиновну</p><p>Назейкину Наталью Александровну</p><p>Николаева Игоря Витальевича</p><p>Трескунову Ларису Александровну</p><p>Фризен Ларису Григорьевну</p><p>Юрову Ольгу Витальевну</p><p>Якимову Ольгу Николаевну</p><p> </p><p class="C">судьями Седьмого кассационного суда общей юрисдикции</p><p>Гагарину Ларису Валерьевну</p><p>Гречкань Наталью Ивановну</p><p>Ермолаеву Ларису Петровну</p><p>Зеленову Елену Федоровну</p><p>Коренева Александра Сергеевича</p><p>Кукарцеву Елену Валентиновну</p><p>Маркелову Наталью Анатольевну</p><p>Протозанову Светлану Анатольевну</p><p>Пудовкину Яну Станиславовну</p><p>Рогову Елену Сергеевну</p><p>Степанова Петра Валентиновича</p><p>Тульскую Ирину Алексеевну</p><p> </p><p class="C">судьями Восьмого кассационного суда общей юрисдикции</p><p>Безденежных Дмитрия Анатольевича</p><p>Билоград Ирину Геннадьевну</p><p>Вульферт Светлану Владимировну</p><p>Дмитриеву Ольгу Степановну</p><p>Дударёк Наталью Григорьевну</p><p>Ковалевскую Викторию Витальевну</p><p>Ковалюк Людмилу Юльевну </p><p>Недорезова Дмитрия Владиславовича</p><p>Папушину Наталью Юрьевну</p><p>Пелёвина Сергея Алексеевича</p><p>Писареву Анну Викторовну</p><p>Пластинину Ольгу Владимировну</p><p>Рубанова Ивана Александровича</p><p>Суворову Надежду Викторовну</p><p>Умыскову Наталью Геннадьевну</p><p>Фролову Татьяну Владимировну</p><p>Ценёву Эллу Викторовну</p><p>Череватенко Наталью Евгеньевну</p><p>Чистякову Елену Александровну</p><p> </p><p class="C">судьями Девятого кассационного суда общей юрисдикции</p><p>Аноприенко Константина Владимировича</p><p>Бусарова Сергея Александровича</p><p>Власенко Ирину Гавриловну</p><p>Воробьеву Наталью Владимировну</p><p>Гаврилова Евгения Викторовича</p><p>Дежурную Галину Максимовну</p><p>Зайцеву Оксану Анатольевну</p><p>Зиганшина Игоря Камильевича</p><p>Ковалёва Сергея Александровича</p><p>Королеву Елену Витальевну</p><p>Любенко Светлану Валерьевну</p><p>Мертикову Викторию Александровну</p><p>Николаенко Елену Юрьевну</p><p>Познер Галину Александровну</p><p>Резниченко Елену Валерьевну</p><p>Ровенко Павла Анатольевича</p><p>Саломатину Людмилу Анатольевну</p><p>Светлову Светлану Евгеньевну</p><p>Симакову Марину Евгеньевну</p><p>Соловьеву Оксану Владимировну</p><p>Старовойт Рену Камиловну</p><p>Тымченко Александра Михайловича</p><p>Шевцову Татьяну Сергеевну</p><p> </p><p class="C">судьями Первого апелляционного суда общей юрисдикции</p><p>Васильеву Татьяну Геннадьевну</p><p>Васильеву Татьяну Игоревну</p><p>Михееву Зою Валерьевну</p><p>Пушкина Александра Владимировича</p><p>Синьковскую Ларису Георгиевну</p><p> </p><p class="C">судьями Второго апелляционного суда общей юрисдикции</p><p>Алексееву Галину Анатольевну</p><p>Буткову Наталью Александровну</p><p>Головко Алексея Борисовича</p><p>Егорову Татьяну Григорьевну</p><p>Иванова Сергея Анатольевича</p><p>Клюсову Светлану Александровну</p><p>Кулябину Анну Сергеевну</p><p>Морозкову Елену Евгеньевну</p><p>Напалкова Сергея Валерьевича</p><p>Павлову Олесю Александровну</p><p>Переверзину Елену Борисовну</p><p>Пластинина Игоря Владимировича</p><p>Семенову Ингу Анатольевну</p><p>Стародубцеву Елену Николаевну</p><p>Хизниченко Маргариту Геннадьевну</p><p>Шадрину Елену Викторовну</p><p> </p><p class="C">судьями Третьего апелляционного суда общей юрисдикции</p><p>Анфалову Елену Владимировну</p><p>Брянцеву Наталью Викторовну</p><p>Демидчик Наталью Васильевну</p><p>Капорину Елену Евгеньевну</p><p>Колпакову Аллу Валентиновну</p><p>Рассказову Галину Владимировну</p><p>Салтыкова Евгения Викторовича</p><p>Удод Елену Валентиновну</p><p> </p><p class="C">судьями Четвертого апелляционного суда общей юрисдикции</p><p>Афанасьеву Татьяну Ивановну</p><p>Батялова Владимира Александровича</p><p>Миронову Наталью Владимировну</p><p>Михеева Алексея Алексеевича</p><p>Нечепурнова Александра Валентиновича</p><p>Рогожину Елену Валерьевну</p><p>Урняеву Галину Юрьевну</p><p>Федорова Павла Сергеевича</p><p> </p><p class="C">судьями Пятого апелляционного суда общей юрисдикции</p><p>Захарова Евгения Ивановича</p><p>Мулярчика Андрея Ивановича</p><p>Никитину Галину Николаевну</p><p>Опанасенко Викторию Николаевну</p><p>Сучкову Елену Геннадьевну</p><p>Тертишникову Ларису Анатольевну</p><p>Шилкину Елену Александровну</p><p>Шульгу Александра Алексеевича</p><p>Ячменёву Татьяну Петровну;</p><p> </p><p>б) в кассационном и апелляционном военных судах и Центральном окружном военном суде:</p><p> </p><p class="C">судьями кассационного военного суда</p><p>Венедиктова Сергея Валерьевича</p><p>Гусейнова Тофика Гусейн-оглы</p><p>Дубова Юрия Анатольевича</p><p>Иванова Вячеслава Викентьевича</p><p>Калиниченко Дениса Юрьевича</p><p>Ключикова Игоря Анатольевича</p><p>Лебедева Александра Георгиевича</p><p>Прыткова Руслана Владимировича</p><p>Сивова Виталия Викторовича</p><p>Шпакова Сергея Петровича</p><p>Яковлева Игоря Анатольевича</p><p> </p><p class="C">судьями апелляционного военного суда</p><p>Бутусова Сергея Александровича</p><p>Винника Сергея Вячеславовича</p><p>Дарницына Александра Георгиевича</p><p>Егорова Олега Александровича</p><p>Мордовина Александра Александровича</p><p>Ракова Андрея Владимировича</p><p>Серебрянского Владимира Ивановича</p><p>Солина Анатолия Валентиновича</p><p>Тарлавину Людмилу Викторовну</p><p>Теплюка Дмитрия Владимировича</p><p>Ушакову Марину Викторовну</p><p> </p><p class="C">судьями Центрального окружного военного суда</p><p>Баландина Андрея Геннадьевича</p><p>Белкина Игоря Викторовича</p><p>Вагапова Рустама Камильевича</p><p>Гладких Сергея Анатольевича</p><p>Живаева Дмитрия Вячеславовича</p><p>Иванчикова Дмитрия Альбертовича</p><p>Ирзуна Сергея Владимировича</p><p>Картовенко Сергея Сергеевича</p><p>Крамского Сергея Анатольевича</p><p>Леднёва Александра Александровича</p><p>Макарова Артема Сергеевича</p><p>Телебу Сергея Григорьевича</p><p>Тимошечкина Дмитрия Александровича</p><p>Торкунова Дениса Михайловича</p><p>Харечко Вадима Анатольевича.</p><p> </p><p>5. Освободить от обязанностей представителя Президента Российской Федерации в квалификационных коллегиях судей:</p><p> </p><p class="C">Республики Дагестан</p><p>Гасанова Алексея Петровича</p><p> </p><p class="C">Курской области</p><p>Лобина Вадима Викторовича</p><p> </p><p class="C">Ульяновской области</p><p>Козина Владимира Павловича.</p><p> </p><p>6. Назначить представителями Президента Российской Федерации в квалификационных коллегиях судей:</p><p> </p><p class="C">Курской области</p><p>Белогурова Андрея Валентиновича</p><p> </p><p class="C">Ульяновской области</p><p>Валенкова Сергея Юрьевича.</p><p> </p><p> </p><p class="I">Президент Российской Федерации                              В.Путин</p><p> </p><p class="I">Москва, Кремль</p><p class="I">19 июня 2019 года</p><p class="I">№ 286</p><p> </p><p> </p></body>
+</html>
+</div>
+</div>
+</body>
+</html>

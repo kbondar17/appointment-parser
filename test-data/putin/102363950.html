@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>О назначении судей федеральных судов</title>
+<meta content="text/html; charset=utf-8; charset=utf-8" http-equiv="Content-Type"><my_meta author="Путин В." date="19.12.2014" doc_id="102363950" tags="арбитражный военный назначение суд судья федеральный" url="http://pravo.gov.ru/proxy/ips/?doc_itself=&amp;nd=102363950&amp;page=1&amp;rdk=0&amp;link_id=0#I0"></my_meta></meta>
+<link href="?doc_itself.css" rel="stylesheet" type="text/css"/>
+<script charset="windows-1251" src="?script.js" type="text/javascript"></script>
+<script charset="windows-1251" src="?json.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+        var bookMarkNumber = parseInt('', 10);
+        var textCompleted = 'True'.toLowerCase() == 'true';
+        var scrollTop = parseInt('', 10);
+
+        function goToMark() {
+            window.location.hash = "I0";
+        }
+
+        function changeFontOnLoad() {
+            if(window.parent.changeDocFont != null) {
+                window.parent.changeDocFont('t_normal');
+            }
+        }
+
+        function printOnLoad() {
+            
+        }
+
+        function loadFullText() {
+            if (textCompleted)
+                return;
+            var supportPageOffset = window.pageXOffset !== undefined;
+			var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
+			var scrollTop = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+            var textContent = document.getElementById("text_content");
+            textContent.innerHTML = '';
+            textContent.appendChild(createSpinner('?'));
+            var newUrl = document.location.href.split('#')[0];
+            newUrl += '&fulltext=1&scrolltop=' + scrollTop;
+            window.location.href = newUrl;
+            FixImagesIE();
+        }
+		function LinkParseHash(){
+					var cells = document.getElementsByTagName("a"); 
+					for (var i = 0; i < cells.length; i++) { 
+						var status = cells[i].setAttribute("target","_parent"); 
+						cells[i].setAttribute("href",cells[i].getAttribute("href")+"&forhash=1")
+					}
+		}
+
+        function loadFinished() {
+            document.doctitle = 'О назначении судей федеральных судов';
+            window.docNum = parseInt('102363950', 10);
+            if (scrollTop > 0) {
+                window.scrollTo(0, scrollTop);
+            }
+            goToMark();
+            goToSelection();
+            setselchange();
+            IERecordSel();
+            changeFontOnLoad();
+            printOnLoad();
+            setLandscape();
+            if (textCompleted) {
+                hideSpinner();
+            }
+            FixImagesIE();
+        }
+
+        /*
+         Если проскролили больше половины текста, проверяем нужно ли загружать весь текст целиком
+         */
+        var didScroll = false;
+        window.onscroll = doThisStuffOnScroll;
+        function doThisStuffOnScroll() {
+            didScroll = true;
+        }
+        var refreshScrollId = setInterval(function() {
+            if(!textCompleted && didScroll) {
+                didScroll = false;
+                var scroll, height;
+                if (document.documentElement.scrollTop) {
+                    scroll = document.documentElement.scrollTop;
+                    height = document.documentElement.scrollHeight;
+                } else {
+                    scroll = document.body.scrollTop;
+                    height = document.body.scrollHeight;
+                }
+                if (scroll > height*0.7) {
+                    clearInterval(refreshScrollId);
+                    loadFullText();
+                }
+            }
+        }, 1000);
+// в IE 11 встроенный механизм ресайза работает нехорошо.
+        function FixImagesIE() {
+            if (!document.documentMode) return; // IE < 8 or not IE
+            if (navigator.userAgent.indexOf('MSIE') >= 0) return; // IE < 11
+            var images = document.querySelectorAll('img');
+            var tmpImages = [];
+            for (var i = 0; i < images.length; i++) {
+                var image = images[i];
+                var iW = images[i].naturalWidth;
+                var iH = images[i].naturalHeight;
+                var targetW = image.width;
+                var targetH = image.height;
+                if ((targetH * 2) > iH) continue; // до двухкратного уменьшения обойдемся встроенным ресайзом.
+                tmpImages[i] = new Image();
+                tmpImages[i].src = image.src;
+                tmpImages[i].setAttribute('iW', iW);
+                tmpImages[i].setAttribute('iH', iH);
+                tmpImages[i].setAttribute('targetW', targetW);
+                tmpImages[i].setAttribute('targetH', targetH);
+                tmpImages[i].setAttribute('num', i);
+                tmpImages[i].onload = function() {
+                    var iW = parseInt(this.getAttribute('iW')) / 2;
+                    var iH = parseInt(this.getAttribute('iH')) / 2;
+                    var targetW = parseInt(this.getAttribute('targetW'));
+                    var targetW = parseInt(this.getAttribute('targetH'));
+                    var num = parseInt(this.getAttribute('num'));
+                    iW = iW < targetW ? targetW : iW;
+                    iH = iH < targetH ? targetH : iH;
+                    this.setAttribute('iW', iW);
+                    this.setAttribute('iH', iH);
+                    var cnv = document.createElement('canvas');
+                    cnv.height = iH;
+                    cnv.width = iW;
+                    var ctx = cnv.getContext('2d');
+                    ctx.drawImage(this, 0, 0, iW, iH);
+                    var dataUrl = cnv.toDataURL();
+                    images[num].src = dataUrl;
+                    if (iW <= targetW || iH <= targetH) 
+                        return;
+                    this.src = dataUrl; // неявная рекурсия
+                }
+            }
+        }
+
+
+    </script>
+</head>
+<body class="doc_content_bg_default" onload="loadFinished();" style="height:100%;">
+<div class="doc_content" id="doc_content" style="width: 750px;min-width: 710px;">
+<div id="text_content">
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:st1="urn:schemas-microsoft-com:office:smarttags" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word">
+<head>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Complex</title>
+<!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View><w:ValidateAgainstSchemas/><w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid><w:IgnoreMixedContent>false</w:IgnoreMixedContent><w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText><w:Compatibility><w:SelectEntireFieldWithStartOrEnd/><w:UseWord2002TableStyleRules/></w:Compatibility><w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel></w:WordDocument></xml><![endif]-->
+<style><!--
+@page vert{size:595.3pt 841.9pt; mso-page-orientation:portrait; margin:15mm 10mm 15mm 12mm; mso-header-margin:10mm; mso-footer-margin:10mm; mso-paper-source:0;}
+@page hori{size:841.9pt 595.3pt; mso-page-orientation:landscape;margin:15mm 10mm 15mm 12mm; mso-header-margin:10mm; mso-footer-margin:10mm; mso-paper-source:0;}
+@page any {margin:15mm 10mm 15mm 12mm;}
+@page {margin:15mm 7mm 15mm 15mm;}
+body{margin:4px; border:0; padding:0; color:#333333; background:#fffffc; font-size:18px; font-family:"times new roman", times, serif; line-height:125%; word-wrap:break-word;}
+div.clip{width:680px; font-size:16px; font-family:tahoma, arial, sans-serif; line-height:100%;}
+div.comment{margin-bottom:5px; padding:5px; border-radius:5px; background-color:#d5d5d5;}
+div.time{padding:16px 0px;}
+div.past{background-color:#f0b0c0;}
+div.future{background-color:#b8f0d0;}
+div.present{background-color:#a8e0ff;}
+div.brd{margin:8px 0px; border-bottom:1px solid #a0a0a0; padding:0;}
+div.fragments{min-height:1000px; width:4000px;}
+img, img.mid{margin-bottom:0; vertical-align:middle;}
+img.bot{margin-bottom:-5px; vertical-align:baseline;}
+p, p.P{text-indent:45px; margin:6px 0px; max-width:680px; text-align:justify; border:0; padding:0;}
+p.N{text-indent:45px; margin:6px 0px; max-width:680px; text-align:justify; border:0; padding:0; font-size:16px;}
+p.I{text-indent:0; margin-left:45px; max-width:635px; text-align:left;}
+p.K{text-indent:0; margin-left:45px; max-width:635px; text-align:justify;}
+p.H{text-indent:-81px; margin-left:126px; max-width:509px; text-align:left; font-weight:bold;}
+p.S{text-indent:0; margin-left:340px; max-width:340px; text-align:center;}
+p.C{text-indent:0; margin-left:45px; margin-right:45px; max-width:590px; text-align:center}
+p.T{text-indent:0; margin-left:45px; margin-right:45px; max-width:590px; text-align:center; font-weight:bold;}
+p.Z{text-indent:0; margin-left:45px; margin-right:45px; max-width:590px; text-align:center; font-weight:bold;}
+p.M{white-space:pre; overflow-wrap:normal; text-indent:0; max-width:4000px; text-align:left; font-size:17px; font-family:"courier new", courier, monospace;}
+p.L{text-indent:0; text-align:left;}
+p.R{text-indent:0; text-align:right;}
+p.J{text-indent:0; text-align:justify;}
+.W0{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:normal; text-decoration:none;}
+.W1{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:normal; text-decoration:underline;}
+.W2{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:italic; text-decoration:none;}
+.W3{vertical-align:baseline; font-size:100%; font-weight:normal; font-style:italic; text-decoration:underline;}
+.W4{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:normal; text-decoration:none;}
+.W5{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:normal; text-decoration:underline;}
+.W6{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:italic; text-decoration:none;}
+.W7{vertical-align:baseline; font-size:100%; font-weight:bold; font-style:italic; text-decoration:underline;}
+.W8{vertical-align:sub; line-height:100%; font-size:100%; font-weight:normal; font-style:normal; text-decoration:none;}
+.W9{vertical-align:super; line-height:100%; font-size:100%; font-weight:normal; font-style:normal; text-decoration:none;}
+table{table-layout:fixed;
+margin:0px 0px 4px 0px; padding:0;
+text-indent:0; text-align:left;
+box-sizing:border-box;
+border-collapse:collapse;
+border-spacing:0;
+border-width:1px;
+border-color:#a0a0a0;
+border-style:none;
+}
+tr .M{page-break-inside:avoid;}
+td{
+empty-cells:show;
+vertical-align:top;
+margin:0; padding:6px 4px 6px 4px;
+text-indent:0; text-align:left;
+border-spacing:0;
+border-width:1px;
+border-color:#a0a0a0;
+border-style:none;
+}
+td div{margin:0; border:0; padding:0; display:inline-block; -ms-writing-mode:tb-rl; -ms-transform:rotate(180deg);}
+.TB0 td, .G02L td, .G02R td, .G02C td, .G02J td, .G04L td, .G04R td, .G04C td, .G04J td{border-style:none;}
+.TB1 td, .G12L td, .G12R td, .G12C td, .G12J td, .G14L td, .G14R td, .G14C td, .G14J td{border-style:solid;}
+table.G22L tr td, table.G22R tr td, table.G22C tr td, table.G22J tr td, table.G24L tr td, table.G24R tr td, table.G24C tr td, table.G24J tr td{border-style:solid;}
+table.G32L tr td, table.G32R tr td, table.G32C tr td, table.G32J tr td, table.G34L tr td, table.G34R tr td, table.G34C tr td, table.G34J tr td{border-style:none;}
+table td.X0{border-style:none;}
+table td.X1{border-style:solid none none none;}
+table td.X2{border-style:none solid none none;}
+table td.X3{border-style:solid solid none none;}
+table td.X4{border-style:none none solid none;}
+table td.X5{border-style:solid none solid none;}
+table td.X6{border-style:none solid solid none;}
+table td.X7{border-style:solid solid solid none;}
+table td.X8{border-style:none none none solid;}
+table td.X9{border-style:solid none none solid;}
+table td.XA{border-style:none solid none solid;}
+table td.XB{border-style:solid solid none solid;}
+table td.XC{border-style:none none solid solid;}
+table td.XD{border-style:solid none solid solid;}
+table td.XE{border-style:none solid solid solid;}
+table td.XF{border-style:solid;}
+td, td p, .TAL td, .TAL td p, tr td p.L, .G02L td, .G02L td p, .G04L td, .G04L td p, .G12L td, .G12L td p, .G14L td, .G14L td p, .G22L td, .G22L td p, .G24L td, .G24L td p, .G32L td, .G32L td p, .G34L td, .G34L td p{text-indent:0; margin:0; max-width:100%; text-align:left;}
+.TAC td, .TAC td p, tr td p.C, .G02C td, .G02C td p, .G04C td, .G04C td p, .G12C td, .G12C td p, .G14C td, .G14C td p, .G22C td, .G22C td p, .G24C td, .G24C td p, .G32C td, .G32C td p, .G34C td, .G34C td p{text-indent:0; margin:0; max-width:100%; text-align:center}
+.TAR td, .TAR td p, tr td p.R, .G02R td, .G02R td p, .G04R td, .G04R td p, .G12R td, .G12R td p, .G14R td, .G14R td p, .G22R td, .G22R td p, .G24R td, .G24R td p, .G32R td, .G32R td p, .G34R td, .G34R td p{text-indent:0; margin:0; max-width:100%; text-align:right;}
+.TAJ td, .TAJ td p, tr td p.J, .G02J td, .G02J td p, .G04J td, .G04J td p, .G12J td, .G12J td p, .G14J td, .G14J td p, .G22J td, .G22J td p, .G24J td, .G24J td p, .G32J td, .G32J td p, .G34J td, .G34J td p{text-indent:0; margin:0; max-width:100%; text-align:justify;}
+tr td p.P{text-indent:38px; margin:0; max-width:100%; text-align:justify;}
+tr td p.N{text-indent:38px; margin:0; max-width:100%; text-align:justify; font-size:16px;}
+tr td p.I{text-indent:0; margin:0px 0px 0px 38px; max-width:100%; text-align:left;}
+tr td p.K{text-indent:0; margin:0px 0px 0px 38px; max-width:100%; text-align:justify;}
+tr td p.H{text-indent:-81px; margin:0px 38px 0px 119px; max-width:100%; text-align:left; font-weight:bold;}
+tr td p.T{text-indent:0; margin:0px 38px 0px 38px; max-width:100%; text-align:center; font-weight:bold;}
+tr.holder td{visibility: hidden; height:0; border-style:none; padding:0; font-size:4px; line-height:0.125em;}
+.G02L, .G02C, .G02R, .G02J, .G12L, .G12C, .G12R, .G12J, .G22L, .G22C, .G22R, .G22J, .G32L, .G32C, .G32R, .G32J{font-size:16px;}
+tr td p.M{max-width:100%; text-align:left; font-size:14px; font-family:"courier new", courier, monospace;}
+div.clip{page:any;}
+div.fragments{page:any;}
+@media screen{
+em{background-color:#f0f0f0; color:#1111ee;}
+span.ed1{background-color:#f0f0f0;}
+span.mark1{background-color:#f0f0f0;}
+span.ed{color:#1111ee;}
+span.mark{color:#1111ee; font-weight:normal; font-style:italic; text-decoration:none;}
+.cmd, a{cursor:pointer; color:#1111ee; font-weight:normal; font-style:normal; text-decoration:underline;}
+.cmdx{background-color:#ead099;}
+.W8 .cmd, .W8 a{cursor:pointer; color:#1111ee; font-weight:normal; font-style:normal; text-decoration:underline;
+vertical-align:bottom; line-height:100%; font-size:11px; font-weight:normal; font-style:normal;}
+.W9 .cmd, .W9 a{cursor:pointer; color:#1111ee; font-weight:normal; font-style:normal; text-decoration:underline;
+vertical-align:top; line-height:100%; font-size:11px; font-weight:normal; font-style:normal;}
+.W8{vertical-align:bottom; line-height:100%; font-size:11px; font-weight:normal; font-style:normal; text-decoration:none;}
+.W9{vertical-align:top; line-height:100%; font-size:11px; font-weight:normal; font-style:normal; text-decoration:none;}
+}
+@media print{
+body{margin:0; border:0; padding:0; color:#333333; background:white; font-size:13.5pt; font-family:"times new roman", times, serif; line-height:125%; word-wrap:break-word;}
+div.clip{width:100%; font-size:11pt; font-family:tahoma, arial, sans-serif; line-height:100%;}
+div.comment{margin-bottom:1ex; padding:1ex;}
+div.time{padding:0ex 0ex 1ex 0ex;}
+div.fragments{min-height:5%; width:100%;}
+p, p.P{text-indent:7ex; max-width:100%; text-align:justify; margin:5pt 0pt; border:0; padding:0;}
+p.N{text-indent:8ex; max-width:100%; text-align:justify; margin:5pt 0pt; border:0; padding:0;}
+p.I{text-indent:0; margin-left:7ex; max-width:100%; text-align:left;}
+p.K{text-indent:0; margin-left:7ex; max-width:100%; text-align:justify;}
+p.H{text-indent:-10ex; margin-left:17ex; margin-right:7ex; max-width:100%; text-align:left; font-weight:bold;}
+p.S{text-indent:0; margin-left:auto; margin-right:0; max-width:40ex; text-align:center;}
+p.C{text-indent:0; margin-left:5ex; margin-right:5ex; max-width:100%; text-align:center;}
+p.T{text-indent:0; margin-left:5ex; margin-right:5ex; max-width:100%; text-align:center; font-weight:bold;}
+p.M{white-space:pre; overflow-wrap:normal; text-indent:0; max-width:100%; text-align:left; font-size:12.5pt; font-family:"courier new", courier, monospace;}
+.mark{font-weight:normal; font-style:italic; text-decoration:none;}
+.cmd, a{font-weight:normal; font-style:normal; text-decoration:none;}
+.W8 .cmd, .W8 a{font-weight:normal; font-style:normal; text-decoration:none;
+vertical-align:bottom; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal;}
+.W9 .cmd, .W9 a{font-weight:normal; font-style:normal; text-decoration:none;
+vertical-align:top; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal;}
+.W8{vertical-align:bottom; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal; text-decoration:none;}
+.W9{vertical-align:top; line-height:100%; font-size:9pt; font-weight:normal; font-style:normal; text-decoration:none;}
+.G02L, .G02C, .G02R, .G02J, .G12L, .G12C, .G12R, .G12J, .G22L, .G22C, .G22R, .G22J{font-size:12pt;}
+tr td p.M{max-width:100%; text-align:left; font-size:12pt; font-family:"courier new", courier, monospace;}
+}
+@media print and (orientation:landscape){
+table{font-size:12pt;}
+p.M{font-size:11pt;}
+}
+--></style>
+</head>
+<body>
+<p> </p><p> </p><p class="T">УКАЗ</p><p> </p><p class="T">ПРЕЗИДЕНТА РОССИЙСКОЙ ФЕДЕРАЦИИ</p><p> </p><p class="T">О назначении судей федеральных судов</p><p> </p><p>Руководствуясь статьями 83 и 128 Конституции Российской Федерации, постановляю:</p><p>1. Назначить на 6-летний срок полномочий:</p><p> </p><p>а) в Верховном Суде Республики Крым и Севастопольском городском суде:</p><p> </p><p class="C">заместителями Председателя Верховного Суда Республики Крым</p><p>Склярова Виктора Николаевича</p><p>Шкляр Татьяну Александровну</p><p> </p><p class="C">заместителем председателя Севастопольского городского суда</p><p>Колбину Татьяну Павловну;</p><p> </p><p>б) в районных судах:</p><p> </p><p class="C">в Республике Крым председателем Евпаторийского городского суда</p><p>Лантратову Антонину Ивановну</p><p class="C">председателем Киевского районного суда г. Симферополя</p><p>Долгополова Андрея Николаевича</p><p class="C">председателем Сакского районного суда</p><p>Власенко Антона Павловича</p><p class="C">председателем Судакского городского суда</p><p>Ионенко Татьяну Ивановну</p><p class="C">заместителем председателя Алуштинского городского суда</p><p>Ломанову Любовь Александровну</p><p class="C">заместителем председателя Бахчисарайского районного суда</p><p>Янина Игоря Альбертовича</p><p class="C">заместителем председателя Белогорского районного суда</p><p>Борисенко Евгения Валентиновича</p><p class="C">заместителем председателя Джанкойского районного суда</p><p>Старову Наталью Анатольевну</p><p class="C">заместителем председателя Евпаторийского городского суда</p><p>Берещанскую Ирину Ивановну</p><p class="C">заместителем председателя Железнодорожного районного суда г. Симферополя</p><p>Уржумову Наталью Валериевну</p><p class="C">заместителями председателя Керченского городского суда</p><p>Кузьмину Елену Николаевну</p><p>Левченко Валерия Павловича</p><p class="C">заместителем председателя Киевского районного суда г. Симферополя</p><p>Диденко Дениса Александровича</p><p class="C">заместителем председателя Ленинского районного суда</p><p>Красикова Сергея Ивановича</p><p class="C">заместителем председателя Нижнегорского районного суда</p><p>Белякову Викторию Николаевну</p><p class="C">заместителем председателя Сакского районного суда</p><p>Глухову Евгению Михайловну</p><p class="C">заместителями председателя Симферопольского районного суда</p><p>Быховца Михаила Александровича</p><p>Сердюка Александра Сергеевича</p><p class="C">заместителем председателя Советского районного суда</p><p>Петрову Юлию Викторовну</p><p class="C">заместителем председателя Центрального районного суда г. Симферополя</p><p>Кучеренко Наталью Владимировну</p><p class="C">заместителем председателя Ялтинского городского суда</p><p>Романенко Владимира Викторовича</p><p> </p><p class="C">в городе Севастополе </p><p class="C">заместителем председателя Гагаринского районного суда</p><p>Гавуру Ольгу Владимировну</p><p class="C">заместителями председателя Ленинского районного суда</p><p>Гаркушу Оксану Маевну</p><p>Гуло Анну Владимировну</p><p class="C">заместителем председателя Нахимовского районного суда</p><p>Пекаринину Ирину Анатольевну;</p><p> </p><p>в) в военных судах:</p><p> </p><p class="C">заместителем председателя Крымского гарнизонного военного суда</p><p>Зубаирова Ризвана Абдуллаевича</p><p> </p><p class="C">заместителем председателя Севастопольского гарнизонного военного суда</p><p>Пагеева Константина Витальевича;</p><p> </p><p>г) в арбитражных судах:</p><p> </p><p class="C">председателем Двадцать первого арбитражного апелляционного суда</p><p>Лазарева Сергея Геннадьевича</p><p> </p><p class="C">заместителем председателя Двадцать первого арбитражного апелляционного суда</p><p>Горбунову Наталью Юрьевну</p><p> </p><p class="C">заместителями председателя Арбитражного суда города Севастополя</p><p>Костерина Александра Валерьевича</p><p>Кравченко Викторию Ефимовну.</p><p> </p><p>2. Назначить:</p><p> </p><p>а) в Верховном Суде Республики Крым и Севастопольском городском суде:</p><p> </p><p class="C">судьями Верховного Суда Республики Крым</p><p>Аврамиди Татьяну Станиславовну</p><p>Агина Владимира Владимировича</p><p>Адаменко Елену Григорьевну</p><p>Балахонова Бориса Лукьяновича</p><p>Белоусова Эдуарда Феликсовича</p><p>Белоусову Викторию Васильевну</p><p>Беляевскую Ольгу Яновну</p><p>Берзиньш Валентину Степановну</p><p>Бондарева Владимира Константиновича</p><p>Бондарева Романа Владимировича</p><p>Васильева Виктора Юрьевича</p><p>Воробьёву Светлану Александровну</p><p>Горбань Валентину Васильевну</p><p>Гриценко Юрия Федоровича</p><p>Дорошенко Татьяну Ильиничну</p><p>Дяченко Любовь Александровну</p><p>Евдокимову Веру Васильевну</p><p>Егорову Елену Станиславовну</p><p>Елгазину Ларису Павловну</p><p>Зинькова Виктора Ивановича</p><p>Ищенко Василия Ивановича</p><p>Капустину Людмилу Павловну</p><p>Караваева Константина Николаевича</p><p>Кирюхину Марину Анатольевну</p><p>Козырева Алексея Викторовича</p><p>Корсакову Юлию Михайловну</p><p>Крючкова Игоря Игоревича</p><p>Кузнецову Елену Александровну</p><p>Кунцова Владимира Александровича</p><p>Курапову Зою Ильиничну</p><p>Курскую Антонину Георгиевну</p><p>Куртлушаева Исмаила Джаферовича</p><p>Кустову Ирину Викторовну</p><p>Латынина Юрия Анатольевича</p><p>Лебедя Олега Дмитриевича</p><p>Любобратцеву Наталью Ивановну</p><p>Мадаева Хасмагомеда Тукуевича</p><p>Мельник Татьяну Александровну</p><p>Моисеенко Татьяну Ильиничну</p><p>Мостовенко Наталью Рудольфовну</p><p>Новикова Романа Васильевича</p><p>Онищенко Татьяну Сергеевну</p><p>Опанасюка Александра Дмитриевича</p><p>Осоченко Анатолия Николаевича</p><p>Павловского Евгения Геннадьевича</p><p>Палия Андрея Юрьевича</p><p>Петюшеву Нану Николаевну</p><p>Погребняка Сергея Николаевича</p><p>Подлесную Ирину Анатольевну</p><p>Пономаренко Аллу Викторовну</p><p>Последова Алексея Юрьевича</p><p>Прибылову Елену Александровну</p><p>Притуленко Елену Владимировну</p><p>Редько Галину Владимировну</p><p>Рогозина Константина Викторовича</p><p>Романову Любовь Владиславовну</p><p>Рошку Марину Владимировну</p><p>Рубанова Сергея Георгиевича</p><p>Руснак Аллу Филипповну</p><p>Рыжову Ирину Владимировну</p><p>Самойлову Елену Васильевну</p><p>Синани Александра Михайловича</p><p>Соболюка Михаила Николаевича</p><p>Сокола Виктора Степановича</p><p>Спасенову Елену Анатольевну</p><p>Сундукова Василия Михайловича</p><p>Сыча Максима Юрьевича</p><p>Терентьеву Наталью Анатольевну</p><p>Тимошенко Екатерину Григорьевну</p><p>Фарину Нелю Юрьевну</p><p>Федорову Татьяну Павловну</p><p>Филатову Евгению Владимировну</p><p>Харченко Ирину Александровну</p><p>Хмарук Наталью Сергеевну</p><p>Череватенко Наталью Евгеньевну</p><p>Чистякову Татьяну Ивановну</p><p>Шестакову Нину Владимировну</p><p>Юсупову Луизу Абдул-Вахаевну</p><p>Язева Сергея Алексеевича</p><p>Яковлева Сергея Валериевича</p><p> </p><p class="C">судьями Севастопольского городского суда</p><p>Авхимова Василия Александровича</p><p>Алееву Наталию Галивну</p><p>Андрейченко Алёну Анатолиевну</p><p>Артамонову Татьяну Александровну</p><p>Бабича Вячеслава Викторовича</p><p>Володину Любовь Васильевну</p><p>Григорову Жозефину Владимировну</p><p>Дубовцева Анатолия Семеновича</p><p>Дудкину Татьяну Николаевну</p><p>Еланскую Елену Эдуардовну</p><p>Ефимову Валентину Александровну</p><p>Землюкова Данила Сергеевича</p><p>Зотова Виктора Сергеевича</p><p>Клочко Валерия Петровича</p><p>Коваленко Александра Юрьевича</p><p>Козуб Елену Викторовну</p><p>Кондрак Наталью Иосифовну</p><p>Косенко Андрея Николаевича</p><p>Лядову Татьяну Романовну</p><p>Мудрову Евгению Юрьевну</p><p>Никитина Геннадия Владимировича</p><p>Птицину Валентину Ивановну</p><p>Устинова Олега Ильича</p><p>Яковенко Светлану Юрьевну;</p><p> </p><p>б) в районных судах:</p><p> </p><p class="C">в Республике Крым </p><p class="C">судьями Алуштинского городского суда</p><p>Гордейчик Татьяну Фёдоровну</p><p>Изотенко Дениса Александровича</p><p>Шустову Ирину Петровну</p><p class="C">судьей Армянского городского суда</p><p>Исроилову Венеру Улугбековну</p><p class="C">судьями Бахчисарайского районного суда</p><p>Атаманюка Германа Степановича</p><p>Кошелева Василия Ивановича</p><p>Морозко Ольгу Романовну</p><p>Никищенко Марину Игоревну</p><p>Скисова Александра Евгеньевича</p><p class="C">судьями Белогорского районного суда</p><p>Балему Татьяну Геннадиевну</p><p>Гребенникову Наталью Александровну</p><p>Лущеко Людмилу Григорьевну</p><p>Соколовского Игоря Станиславовича</p><p class="C">судьями Джанкойского районного суда</p><p>Басову Елену Андреевну</p><p>Емельянову Галину Александровну</p><p>Кузнецову Ларису Николаевну</p><p>Логвинко Елену Анатольевну</p><p>Холкину Анну Ивановну</p><p>Юрченко Станислава Викторовича</p><p class="C">судьями Евпаторийского городского суда</p><p>Вильхового Игоря Николаевича</p><p>Володарец Наталью Михайловну</p><p>Дудник Анастасию Сергеевну</p><p>Захарову Ирину Александровну</p><p>Кротову Людмилу Владимировну</p><p>Нанарова Алексея Александровича</p><p>Ружицкую Татьяну Владимировну</p><p class="C">судьями Железнодорожного районного суда г. Симферополя</p><p>Гнусарева Владимира Константиновича</p><p>Гоцкалюка Владимира Дмитриевича</p><p>Дегтяреву Викторию Юрьевну</p><p>Домникову Марию Викторовну</p><p>Злотникова Василия Яковлевича</p><p>Слезко Тимура Васильевича</p><p class="C">судьями Керченского городского суда</p><p>Григорьевскую Инессу Викторовну</p><p>Захарову Екатерину Павловну</p><p>Киселева Евгения Михайловича</p><p>Кит Марину Викторовну</p><p>Ковалёва Александра Владимировича</p><p>Короткову Любовь Михайловну</p><p>Собещанскую Надежду Васильевну</p><p>Чеснокову Юлию Николаевну</p><p>Шкулипу Владимира Ивановича</p><p class="C">судьями Киевского районного суда г. Симферополя</p><p>Белоусова Михаила Николаевича</p><p>Гурину Ольгу Валерьевну</p><p>Кагитину Ирину Владимировну</p><p>Кузнецову Ольгу Павловну</p><p>Можелянского Виктора Анатольевича</p><p>Охоту Янину Валерьевну</p><p>Рубе Татьяну Алексеевну</p><p>Тихопоя Алексея Александровича</p><p class="C">судьями Кировского районного суда</p><p>Данилову Елену Владимировну</p><p>Михайлова Романа Витальевича</p><p class="C">судьями Красногвардейского районного суда</p><p>Мязгова Леонида Алексеевича</p><p>Павлюкову Ольгу Владимировну</p><p>Проскурню Сергея Николаевича</p><p>Шевченко Ирину Викторовну</p><p class="C">судьями Красноперекопского районного суда</p><p>Никишенко Татьяну Николаевну</p><p>Савченко Александра Сергеевича</p><p>Шевченко Ольгу Владимировну</p><p class="C">судьями Ленинского районного суда</p><p>Казацкого Владимира Владимировича</p><p>Трубникова Юрия Леонидовича</p><p>Украинец Лесю Ивановну</p><p class="C">судьями Нижнегорского районного суда</p><p>Авакяна Артура Мавсесовича</p><p>Брындю Марину Анатольевну</p><p class="C">судьями Первомайского районного суда</p><p>Климову Анну Михайловну</p><p>Михайлову Людмилу Александровну</p><p class="C">судьями Раздольненского районного суда</p><p>Бедрицкую Марию Александровну</p><p>Тедееву Елену Анатольевну</p><p class="C">судьями Сакского районного суда</p><p>Вяткину Светлану Александровну</p><p>Исламгулову Елену Владимировну</p><p>Мазалову Маргариту Ивановну</p><p class="C">судьями Симферопольского районного суда</p><p>Берберова Длявера Меметовича</p><p>Захарченко Любовь Анатольевну</p><p>Кулишова Андрея Сергеевича</p><p>Пакулу Марьяну Романовну</p><p>Панину Павлину Евгеньевну</p><p>Тимофееву Анну Александровну</p><p>Томащака Альберта Степановича</p><p>Хиневич Аллу Николаевну</p><p class="C">судьями Советского районного суда</p><p>Бражника Игоря Сергеевича</p><p>Дмитриева Тимофея Михайловича</p><p>Тощеву Елену Александровну</p><p class="C">судьями Судакского городского суда</p><p>Лисовскую Валентину Владимировну</p><p>Морозову Людмилу Николаевну</p><p class="C">судьями Феодосийского городского суда</p><p>Алинкину Алину Викторовну</p><p>Блейз Ирину Геннадьевну</p><p>Бойко Зою Александровну</p><p>Быстрякову Дианну Святославовну</p><p>Кулинскую Наталью Владимировну</p><p>Микитюк Ольгу Андреевну</p><p>Терентьева Андрея Николаевича</p><p>Хибакову Ларису Владимировну</p><p>Хожаинову Оксану Васильевну</p><p>Шаповал Анастасию Владимировну</p><p class="C">судьями Центрального районного суда г. Симферополя</p><p>Благодатную Елену Юрьевну</p><p>Гулевича Юрия Григорьевича</p><p>Двирнык Надежду Викторовну</p><p>Деменока Сергея Валерьевича</p><p>Заболотную Наталью Николаевну</p><p>Каралаш Зою Юрьевну</p><p>Максимову Викторию Варсоновну</p><p>Федоренко Эвелину Робертовну</p><p class="C">судьями Черноморского районного суда</p><p>Бондаренко Анатолия Анатольевича</p><p>Ерохину Ирину Валериевну</p><p class="C">судьями Ялтинского городского суда</p><p>Берещанского Юрия Витальевича</p><p>Кайро Игоря Анатольевича</p><p>Корпачеву Любовь Викторовну</p><p>Кулешову Оксану Игоревну</p><p>Синицыну Оксану Владимировну</p><p>Смирнова Сергея Григорьевича</p><p> </p><p class="C">в городе Севастополе </p><p class="C">судьями Балаклавского районного суда</p><p>Дождикову Светлану Алексеевну</p><p>Дыбеца Алексея Михайловича</p><p>Мурадян Рузанну Паргевовну</p><p class="C">судьями Гагаринского районного суда</p><p>Бессараб Любовь Михайловну</p><p>Евдокимову Ирину Арсентьевну</p><p>Кириленко Елену Александровну</p><p>Кныш Наталью Николаевну</p><p>Матюшеву Екатерину Петровну</p><p class="C">судьями Ленинского районного суда</p><p>Василенко Анатолия Николаевича</p><p>Грачева Андрея Петровича</p><p>Истягину Надежду Михайловну</p><p>Калганову Светлану Владимировну</p><p>Климакова Виктора Николаевича</p><p>Кукурекина Константина Васильевича</p><p>Прохорчук Ольгу Владимировну</p><p>Степанову Юлию Сергеевну</p><p>Фисюк Оксану Ивановну</p><p class="C">судьями Нахимовского районного суда</p><p>Богаевскую Татьяну Станиславовну</p><p>Дядю Татьяну Владимировну</p><p>Колупаеву Ольгу Анатольевну</p><p>Лемешко Аллу Сергеевну</p><p>Романова Сергея Александровича</p><p>Семенуху Татьяну Борисовну;</p><p> </p><p>в) в военных судах:</p><p> </p><p class="C">судьями Крымского гарнизонного военного суда</p><p>Богославского Александра Александровича</p><p>Быкова Вячеслава Сергеевича</p><p>Копылова Дениса Эдуардовича</p><p>Котова Павла Николаевича</p><p> </p><p class="C">судьями Севастопольского гарнизонного военного суда</p><p>Антонова Георгия Павловича</p><p>Жагинова Арслана Ивановича</p><p>Макарова Артема Сергеевича</p><p>Опанасенко Валерия Сергеевича</p><p>Храменкова Павла Валентиновича;</p><p> </p><p>г) в арбитражных судах:</p><p> </p><p class="C">судьями Двадцать первого арбитражного апелляционного суда</p><p>Баукину Елену Александровну</p><p>Вахитова Романа Салихжановича</p><p>Гоголя Юрия Михайловича</p><p>Голика Виктора Сергеевича</p><p>Гонтаря Виктора Ивановича</p><p>Горошко Наталию Петровну</p><p>Градову Ольгу Григорьевну</p><p>Евдокимова Игоря Вячеславовича</p><p>Елагину Ольгу Константиновну</p><p>Илюхину Анну Павловну</p><p>Калашникову Катерину Геннадьевну</p><p>Карева Александра Юрьевича</p><p>Котлярову Елену Леонидовну</p><p>Мунтян Ольгу Ивановну</p><p>Оликову Ларису Николаевну</p><p>Омельченко Вячеслава Анатольевича</p><p>Остапову Екатерину Андреевну</p><p>Полынкину Наталию Александровну</p><p>Привалову Анжелику Вячеславовну</p><p>Проценко Александру Ивановну</p><p>Рыбину Светлану Анатольевну</p><p>Сикорскую Наталью Ивановну</p><p>Тарасенко Андрея Алексеевича</p><p>Храмову Елену Вячеславовну</p><p>Черткову Ирину Валентиновну</p><p> </p><p class="C">судьями Арбитражного суда Республики Крым</p><p>Авдеева Максима Петровича</p><p>Белоглазову Ирину Константиновну</p><p>Белоус Марину Александровну</p><p>Гаврилюк Марию Павловну</p><p>Гайворонского Владимира Ивановича</p><p>Гризодубову Анастасию Николаевну</p><p>Евдокимову Елену Александровну</p><p>Ильичева Николая Николаевича</p><p>Ищенко Ирину Анатольевну</p><p>Колосову Анну Геннадьевну</p><p>Кузнякову Светлану Юрьевну</p><p>Куртлушаева Мурата Исмаиловича</p><p>Лагутину Наталью Михайловну</p><p>Ловягину Юлию Юрьевну</p><p>Лукачева Станислава Олеговича</p><p>Можарову Марию Евгеньевну</p><p>Осоченко Инессу Константиновну</p><p>Петухову Надежду Семеновну</p><p>Потопальского Сергея Степановича</p><p>Радвановскую Юлию Анатольевну</p><p>Соколову Ирину Александровну</p><p>Титкова Сергея Яковлевича</p><p>Толпыго Валентину Ивановну</p><p> </p><p class="C">судьями Арбитражного суда города Севастополя</p><p>Александрова Александра Юрьевича</p><p>Алёшину Светлану Михайловну</p><p>Архипенко Александра Михайловича</p><p>Васильченко Оксану Сергеевну</p><p>Головко Валерию Олеговну</p><p>Колупаеву Юлию Васильевну</p><p>Минько Ольгу Валентиновну</p><p>Морозову Наталью Алексеевну</p><p>Погребняка Алексея Станиславовича</p><p>Ражкова Романа Алексеевича</p><p>Юрину Елену Николаевну.</p><p> </p><p> </p><p>Президент Российской Федерации                               В.Путин</p><p> </p><p>Москва, Кремль</p><p>19 декабря 2014 года</p><p>№ 786</p><p> </p></body>
+</html>
+</div>
+</div>
+</body>
+</html>
