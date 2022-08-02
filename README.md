@@ -2,10 +2,6 @@
 Это парсер указов о назначениях и отставках российских чиновников, которые публикуются на официальном портале правовой информации http://pravo.gov.ru/. 
 
 ## Команды
-Распарсить файл
+Распарсить все файлы в тестовой директории
 
-```python -m parse file --file '123456789.html' --result 'parsed.json'```
-
-Распарсить все файлы в директории
-
-```python -m parse folder --folder './decree_data' --destination-folder './parsed_results'```
+```python -m parse folder --folder './test-data/putin' --results-file 'parsed_putin.json'```
