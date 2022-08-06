@@ -4,4 +4,4 @@
 ## Команды
 Распарсить все файлы в тестовой директории
 
-```python -m parse --folder './test-data/putin' --results-file 'parsed_putin.json'```
+```python -m parser --folder './test-data/putin' --results-file 'parsed_putin.json'```
